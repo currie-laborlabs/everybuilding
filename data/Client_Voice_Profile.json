@@ -1,0 +1,186 @@
+{
+  "client_id": "torres-commercial-roofing",
+  "version": "1.0.0",
+  "updated_at": "2026-04-24",
+
+  "company_basics": {
+    "company_name": "Torres Commercial Roofing",
+    "primary_trade": "commercial roofing",
+    "years_in_business": 18,
+    "service_area": "Raleigh-Durham metro and surrounding counties, 60-mile radius",
+    "team_size": "32 field employees",
+    "licenses_and_certs": [
+      "GAF Master Elite Certified Contractor",
+      "NC General Contractor License #65821",
+      "OSHA 30-Hour certified crews",
+      "Duro-Last Preferred Contractor"
+    ]
+  },
+
+  "primary_usp": {
+    "headline": "We reroofed over 400K sqft of commercial space in the Triangle last year without a single emergency callback.",
+    "supporting_detail": "The company's core differentiator is execution reliability — projects finish on time, crews are pre-vetted, and every job ships with a documented punch list. Owners and facilities teams cite this as the reason they keep calling back."
+  },
+
+  "additional_usps": [
+    {
+      "headline": "GAF Master Elite — top 2% of roofing contractors nationally",
+      "supporting_detail": "GAF Master Elite status requires a rigorous vetting process and allows the company to offer the GAF Golden Pledge warranty — the strongest manufacturer-backed commercial roof warranty available."
+    },
+    {
+      "headline": "Drone-documented inspections with written reports delivered within 48 hours",
+      "supporting_detail": "Every assessment includes drone footage and a written condition report. Owners get a real picture of their roof, not a verbal estimate over the phone."
+    },
+    {
+      "headline": "Zero disruption to tenants or operations during reroofing",
+      "supporting_detail": "Commercial jobs are staged to avoid disrupting tenant operations. The company has reroofed active distribution centers, occupied office buildings, and live retail without a single documented tenant complaint."
+    }
+  ],
+
+  "signature_projects": [
+    {
+      "building_type": "distribution warehouse",
+      "square_feet": 185000,
+      "location": "Research Triangle Park, NC",
+      "dollar_amount": "$420K",
+      "outcome_summary": "Full TPO reroof completed 3 days early, zero tenant disruption, no callbacks in 18 months"
+    },
+    {
+      "building_type": "multi-tenant retail strip",
+      "square_feet": 42000,
+      "location": "Cary, NC",
+      "dollar_amount": "$95K",
+      "outcome_summary": "Emergency tear-off and reroof after hail damage; building reopened in 11 days, full insurance coordination handled by Torres"
+    },
+    {
+      "building_type": "Class B office building",
+      "square_feet": 78000,
+      "location": "Durham, NC",
+      "dollar_amount": "$210K",
+      "outcome_summary": "Phased reroof over 90 days to keep tenants operational; building owner extended a second property contract before job was finished"
+    }
+  ],
+
+  "brand_voice": {
+    "tone": "direct, no-nonsense, blue-collar professional — confident but not arrogant, honest but not blunt to the point of being off-putting",
+    "phrases_to_use": [
+      "ground-level read",
+      "straight picture",
+      "no callbacks",
+      "we've done this",
+      "when it matters",
+      "before it becomes urgent",
+      "real answer"
+    ],
+    "phrases_to_avoid": [
+      "world-class",
+      "second to none",
+      "industry-leading",
+      "best-in-class",
+      "passionate about roofing",
+      "we take pride in",
+      "I hope this email finds you well",
+      "just reaching out",
+      "touch base",
+      "circle back",
+      "synergy",
+      "solutions"
+    ]
+  },
+
+  "customer_praise_themes": [
+    {
+      "theme": "shows up when they say they will — no chasing",
+      "frequency": "high",
+      "example_quote": "Every other contractor we called was late or a no-show. Torres showed up at 7am on day one and every day after."
+    },
+    {
+      "theme": "no surprise charges at the end",
+      "frequency": "high",
+      "example_quote": "The quote we got was the price we paid. First time that's happened with a roofing contractor in 15 years."
+    },
+    {
+      "theme": "explains things clearly without overselling",
+      "frequency": "medium",
+      "example_quote": "They told us what actually needed to be done and what could wait. Didn't try to upsell us on a full replacement when repairs were the right call."
+    }
+  ],
+
+  "market_positioning": {
+    "desired_reputation": "the commercial roofing company that large landlords and property managers call first because they know the job will get done right without babysitting",
+    "price_positioning": "mid-market",
+    "competitors_to_avoid_mentioning": [
+      "Peak Roofing Contractors",
+      "Carolina Roofing Inc",
+      "Triangle Roof Masters"
+    ]
+  },
+
+  "targeting_preferences": {
+    "target_zip_codes": [],
+    "excluded_zip_codes": [],
+    "target_building_types": [
+      "warehouse",
+      "industrial",
+      "distribution",
+      "office",
+      "retail strip",
+      "flex industrial"
+    ],
+    "excluded_building_types": [
+      "single family residential",
+      "multifamily residential",
+      "church"
+    ],
+    "min_project_size_sqft": 10000
+  },
+
+  "assets_available": {
+    "website_url": "https://torrescommercialroofing.com",
+    "google_reviews_url": "https://g.page/torres-commercial-roofing",
+    "youtube_channel_url": null,
+    "case_study_urls": [
+      "https://torrescommercialroofing.com/case-studies/rtp-warehouse",
+      "https://torrescommercialroofing.com/case-studies/cary-retail"
+    ],
+    "has_drone_footage": true,
+    "has_video_testimonials": false
+  },
+
+  "sender_identity": {
+    "sender_full_name": "Michael Torres",
+    "sender_title": "Project Estimator, Torres Commercial Roofing",
+    "sender_sign_off_name": "Mike",
+    "sender_email": "mike@outreach.torrescommercialroofing.com"
+  },
+
+  "signature_line_data": {
+    "years_in_business": 18,
+    "service_area": "Raleigh-Durham metro, 60-mile radius",
+    "core_specialties": [
+      "TPO and EPDM flat roofing",
+      "commercial reroof and tear-off",
+      "post-storm assessment and insurance coordination",
+      "occupied-building phased reroofing"
+    ],
+    "certifications_and_awards": [
+      "GAF Master Elite Certified",
+      "Duro-Last Preferred Contractor",
+      "NC General Contractor Licensed"
+    ],
+    "signature_projects_summary": [
+      "400K+ sqft reroofed in the Triangle in 2025",
+      "185K sqft distribution center — zero disruption, finished early",
+      "78K sqft office reroof phased over 90 days with tenants in-place"
+    ],
+    "top_review_themes": [
+      "shows up when they say they will",
+      "no surprise charges",
+      "honest assessment, no upsell"
+    ],
+    "volume_scale_claims": [
+      "50+ commercial roofs per year in the Triangle",
+      "18 years serving Raleigh-Durham commercial property owners"
+    ]
+  }
+}

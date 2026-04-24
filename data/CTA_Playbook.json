@@ -1,0 +1,315 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-24",
+  "global_rules": [
+    "Never exceed the word_limit for each CTA. Count only the email body words, not subject or signature line.",
+    "Always reference the specific building address naturally in the email body.",
+    "Never use the word 'just'.",
+    "Never open with 'I hope this email finds you well' or any similar AI-sounding opener.",
+    "Never fabricate data, permits, or events. Only reference facts provided in the property context.",
+    "Never include external URLs in the email body unless allow_link_in_body is true.",
+    "Always sound like a real person — direct, human, blue-collar professional.",
+    "Every email must end with the Company Signature Line between the body and the sender name.",
+    "The subject line should feel direct and property-specific, never clickbait or salesy.",
+    "CAN-SPAM compliance: every email must include a physical address and unsubscribe option (handled by Instantly — do NOT add these to the generated content)."
+  ],
+  "ctas": {
+    "1": {
+      "cta_number": 1,
+      "name": "property_insight",
+      "display_name": "Property-Specific Insight",
+      "description": "Lead with a specific, verifiable observation about the building — age, square footage, permit history, or known roof type — and connect it to a risk or cost the owner should care about. This is the first touch, so keep it credible and non-pushy.",
+      "instructions": "Write a short cold email that opens with one specific fact about this building (e.g., year built, square footage, lack of recent permit activity). Connect that fact to a concrete risk or cost implication. End with a single low-friction ask — a quick call or reply. Do NOT pitch services directly. Do NOT use superlatives. Make the insight feel researched, not templated.",
+      "rules": [
+        "The building observation must come from the property_context fields provided — do not invent data.",
+        "One specific fact, one implication, one ask. No lists, no multiple asks.",
+        "Under 80 words in the body.",
+        "Do not mention competitors.",
+        "No links in the body."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Quick question about 847 Commerce Drive",
+          "body": "Noticed 847 Commerce Drive was built in 1991 — that puts the roof well past its typical 25-year design life. With no recent permit activity on record, it may be running on borrowed time before leaks or membrane failures become an emergency cost rather than a planned one.\n\nWould a no-obligation walkthrough make sense? Happy to take a look and give you a straight read.",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Roof age flag — 847 Commerce Drive",
+          "body": "Your building on Commerce Drive dates to 1991. In our experience, roofs in that age range start generating repeat service calls — patching costs pile up fast and emergency repairs run 3–4x a planned replacement.\n\nIf you haven't had it assessed recently, I can take a look and give you an honest picture of where it stands. No sales pitch — just a ground-level read.",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "2": {
+      "cta_number": 2,
+      "name": "video_offer",
+      "display_name": "Personalized Video Offer",
+      "description": "Offer to send a short, personalized video walkthrough of what the contact can expect from a roof assessment — differentiated from generic sales decks. The link is NOT in the body; it's sent on reply.",
+      "instructions": "Write a short cold email offering to send a brief personalized video — not a product pitch, but a visual walkthrough of what a professional roof assessment looks like for a building like theirs. Make it feel exclusive and low-friction. The video link is NOT included in this email — tell them you'll send it on reply.",
+      "rules": [
+        "Do NOT include a URL or link in the body.",
+        "Frame the video as personalized and building-specific, not a generic company overview.",
+        "One clear ask: 'Want me to send it over?'",
+        "Under 80 words in the body."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "assets_available", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Quick video for 2200 Industrial Blvd",
+          "body": "I put together a short video walkthrough showing what a commercial roof assessment looks like for a building the size of 2200 Industrial Blvd — what we check, what we document, and what the common cost drivers are for a structure that age.\n\nIt's specific to your building type, not a generic company pitch. Want me to send it over?",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Video — what a roof inspection actually covers",
+          "body": "Thought this might be useful for your team at 2200 Industrial Blvd — I made a short walkthrough video of what a full commercial roof inspection covers and what we flag in the report.\n\nIt's practical, not a sales reel. Two minutes. Want me to drop it in your inbox?",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "3": {
+      "cta_number": 3,
+      "name": "free_assessment",
+      "display_name": "Free Assessment / Drone Inspection",
+      "description": "Offer a no-cost, no-obligation roof assessment — potentially including drone inspection if assets are available. Position it as a professional service, not a sales gimmick.",
+      "instructions": "Write a short cold email offering a free professional roof assessment. If drone footage capability is available in assets_available, reference it. Position the offer as a real professional service — not a gimmick or a lead-gen trick. Keep the ask minimal: are they open to it?",
+      "rules": [
+        "Do not use the phrase 'free inspection' — say 'no-cost assessment' or 'complimentary walkthrough'.",
+        "If drone is mentioned, it must be in assets_available.has_drone_footage = true.",
+        "Under 80 words in the body.",
+        "One ask only — don't list deliverables."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "assets_available", "sender_identity"],
+      "examples": [
+        {
+          "subject": "No-cost roof assessment — 550 Logistics Park Way",
+          "body": "We're offering complimentary commercial roof assessments in your area this month — drone flyover included, full written report, no obligation.\n\nFor a building like 550 Logistics Park Way, it usually takes under two hours and gives you a clear picture of current condition and projected timeline before anything becomes urgent.\n\nAre you open to scheduling one?",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Free roof walkthrough — 550 Logistics Park Way",
+          "body": "We're doing complimentary assessments in the area for facilities teams who want a current read on their roof before summer heat peaks. Drone flyover, written findings, zero cost.\n\nFor a building the age of yours on Logistics Park Way, it's a solid way to get ahead of emergency calls. Open to it?",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "4": {
+      "cta_number": 4,
+      "name": "interest_question",
+      "display_name": "Interest-Based Question",
+      "description": "Ask a single, direct question about the contact's current roof situation or decision-making timeline. No pitch. Just a question that opens a conversation.",
+      "instructions": "Write an ultra-short cold email with exactly one question. The question should be about their current roof situation, pain, or decision timeline — not about your company. The email is almost entirely the question with minimal framing. Under 50 words total. Do not pitch anything.",
+      "rules": [
+        "Exactly one question — no multiple questions.",
+        "Under 50 words in the body.",
+        "No pitch, no service listing, no company background.",
+        "The question must feel conversational, not scripted."
+      ],
+      "voice_profile_sections": ["brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Quick question — 1100 Warehouse Row",
+          "body": "Do you have a sense of when the roof at 1100 Warehouse Row is due for a full assessment, or is that something that gets handled reactively when issues come up?",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Roof at 1100 Warehouse Row — timing question",
+          "body": "Is the roof at 1100 Warehouse Row on a planned maintenance schedule, or does your team typically wait for issues to surface before calling someone in?",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 50,
+      "allow_link_in_body": false
+    },
+    "5": {
+      "cta_number": 5,
+      "name": "case_study_offer",
+      "display_name": "Case Study Offer",
+      "description": "Reference a real completed project that closely matches the prospect's building type or situation, and offer to share the full case study on reply.",
+      "instructions": "Write a short cold email referencing one of the company's real signature projects from the voice profile. Match the project to the prospect's building type as closely as possible. Offer to send the full case study on reply — do NOT include it in the body. Keep it specific: building type, outcome, scale. No generics.",
+      "rules": [
+        "The project referenced must come from signature_projects in the voice profile — do not invent one.",
+        "Match building type to the prospect's property type when possible.",
+        "Do not include a link or attachment in the body — 'I'll send it over on reply.'",
+        "Under 80 words in the body.",
+        "One ask: want the case study?"
+      ],
+      "voice_profile_sections": ["company_basics", "signature_projects", "brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Case study — distribution warehouse reroofing",
+          "body": "We recently completed a full reroof on a 185,000 sqft distribution facility in the Raleigh area — $420K job, finished 3 days ahead of schedule, zero tenant disruption. The owner had been deferring it for two years before they called us.\n\nGiven what I know about your building on Park Drive, I thought it might be relevant. Want me to send the breakdown?",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Similar building, relevant outcome — Park Drive",
+          "body": "We just wrapped a reroof on a 185,000 sqft warehouse in the area — similar age and profile to your Park Drive property. Facilities team stayed fully operational throughout. Finished early.\n\nI can send the write-up if it's useful context for where your building is headed. Interested?",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "6": {
+      "cta_number": 6,
+      "name": "reply_with_number",
+      "display_name": "Reply-With-a-Number",
+      "description": "Ask the contact to reply with a number (1, 2, or 3) that represents where they are in their decision process. Ultra-low-friction engagement that also qualifies the lead.",
+      "instructions": "Write a short cold email that asks the contact to reply with a single number to indicate where they stand on roof maintenance or replacement planning. Give three numbered options — make them useful and honest, not loaded. Frame it as a quick way to make sure you're not wasting their time.",
+      "rules": [
+        "Exactly three numbered options — no more, no less.",
+        "Options must be honest and non-manipulative.",
+        "Under 60 words in the body.",
+        "The ask must feel like it's saving them time, not qualifying them for a sales call."
+      ],
+      "voice_profile_sections": ["brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "One-number reply — 340 Commerce Center",
+          "body": "Before I follow up further on 340 Commerce Center — what number fits best?\n\n1. We have a roof plan in place\n2. We're aware it's due for attention but haven't acted\n3. Not our current priority\n\nHappy to stop reaching out if it's a 1 or 3.",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Quick reply — 340 Commerce Center roof",
+          "body": "Just curious where your team stands on the roof at 340 Commerce Center:\n\n1. We're on top of it — inspected recently\n2. It's on the radar but nothing scheduled\n3. Not something I handle — wrong contact\n\nReply with the number and I'll adjust accordingly.",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 60,
+      "allow_link_in_body": false
+    },
+    "7": {
+      "cta_number": 7,
+      "name": "resource_checklist",
+      "display_name": "Resource / Checklist",
+      "description": "Offer a practical, useful resource — a checklist, guide, or framework — relevant to commercial roof maintenance or assessment. The resource is sent on reply, not linked in the body.",
+      "instructions": "Write a short cold email offering a useful, practical resource — e.g. a commercial roof inspection checklist, a guide to reading a roof assessment report, or a maintenance planning framework. Position it as genuinely useful, not a sales tool. The resource is NOT linked in the body — tell them you'll send it on reply.",
+      "rules": [
+        "The resource offered must be credible and specific — not 'a guide to roofing.'",
+        "Do NOT include a URL or link.",
+        "Frame the resource as a give, not a hook.",
+        "Under 80 words in the body."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Commercial roof inspection checklist — for your team",
+          "body": "We put together a commercial roof inspection checklist that facilities teams and property managers use to evaluate contractor reports and ask better questions during assessments.\n\nIt's practical — not a marketing piece. Covers membrane condition indicators, drainage red flags, and what deferred maintenance actually costs per year of delay.\n\nWant me to send it over? No strings.",
+          "target_role": "operational"
+        },
+        {
+          "subject": "Roof lifecycle cost framework — might be useful",
+          "body": "We created a one-page framework that helps owners model the cost difference between planned re-roofing and reactive repair cycles over a 10-year window.\n\nMost owners we show it to are surprised by the gap. Happy to send it if it's useful context for wherever 720 Park Ave stands right now.",
+          "target_role": "financial"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "8": {
+      "cta_number": 8,
+      "name": "weather_trigger",
+      "display_name": "Weather / Seasonal Trigger",
+      "description": "Reference a recent local storm event or seasonal weather pattern and connect it to roof vulnerability. CONDITIONAL: requires NOAA storm data within 50 miles in the last 30 days. Until NOAA integration is built, this CTA is always skipped.",
+      "instructions": "Write a short cold email that references a specific recent storm or weather event near the building and connects it to potential roof damage or vulnerability. Keep it factual — reference hail, high winds, or heavy rain specifically. Offer a post-storm inspection. Do NOT fabricate weather events — use only data from the storm context provided.",
+      "rules": [
+        "MUST have a real storm event in the context — never invent weather data.",
+        "Reference the specific event type (hail, wind, rain) and approximate timing.",
+        "Offer a post-event inspection — do not make damage claims.",
+        "Under 80 words in the body.",
+        "No links in the body."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "assets_available", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Post-hail inspection — 1800 Distribution Way",
+          "body": "The hail event that came through your area two weeks ago (1-inch reported in the 27603 corridor) is exactly the kind of storm that causes hidden membrane damage — nothing visible from the ground but granule loss and seam stress that shortens roof life by years.\n\nWe're doing post-storm assessments in the area. Want us to add 1800 Distribution Way to the list?",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Storm check — 1800 Distribution Way",
+          "body": "After the wind event last week, we've been doing rapid assessments for facilities teams in the area. High-wind events are hard on flashings and penetrations even when the membrane looks fine from below.\n\nWe can get eyes on 1800 Distribution Way quickly if your team wants a current read before anything surfaces.",
+          "target_role": "operational"
+        }
+      ],
+      "condition": {
+        "description": "Requires a verified NOAA storm event (hail, high wind, or significant rain) within 50 miles of the building in the last 30 days. Until NOAA integration is built (Phase 2), this CTA always evaluates to ineligible and is skipped.",
+        "skip_when_unmet": true
+      },
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "9": {
+      "cta_number": 9,
+      "name": "proximity",
+      "display_name": "Proximity / Neighborhood",
+      "description": "Reference nearby work the company has recently completed in the same area or building class. Creates social proof through geographic proximity. Works best when a real nearby job is available from the voice profile.",
+      "instructions": "Write a short cold email referencing recent work completed near this building or in this area. Use a signature project from the voice profile if it is geographically relevant. Frame proximity as a natural reason to reach out — you're already working in the area. Offer to walk by while you're nearby.",
+      "rules": [
+        "Only reference nearby work if it's plausible given the voice profile's service area and signature projects.",
+        "Do not exaggerate proximity — 'the area' or 'nearby' is fine; do not claim a specific cross street unless data supports it.",
+        "Under 80 words in the body.",
+        "Keep the ask casual — 'swing by while we're in the area' not a formal appointment request."
+      ],
+      "voice_profile_sections": ["company_basics", "signature_projects", "brand_voice", "sender_identity"],
+      "examples": [
+        {
+          "subject": "Working nearby — 500 Corporate Campus Dr",
+          "body": "We're wrapping up a reroof two blocks over from 500 Corporate Campus Dr this week — similar building vintage and construction type.\n\nSince we're already on-site with equipment, it costs us nothing to give your building a quick look. Often the most useful time to get a ground truth on condition is when we're already in the neighborhood.\n\nWorth a quick walkthrough?",
+          "target_role": "operational"
+        },
+        {
+          "subject": "In your area this week — 500 Corporate Campus Dr",
+          "body": "We're finishing a job nearby this week and have a gap Tuesday afternoon. Buildings in this corridor tend to share the same design era and the same deferred maintenance patterns.\n\nIf it makes sense to get eyes on 500 Corporate Campus Dr while we're close, the timing works well on our end. Is that worth exploring?",
+          "target_role": "financial"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    },
+    "10": {
+      "cta_number": 10,
+      "name": "hypothesis_challenge",
+      "display_name": "Hypothesis / Challenge",
+      "description": "Make a confident, specific hypothesis about the building's roof condition or the owner's current situation based on building data. Invite them to prove you wrong. Creates engagement through a mild challenge.",
+      "instructions": "Write a short cold email that makes a specific, confident hypothesis about the building's likely roof situation — based on age, building type, or location. Invite the contact to prove the hypothesis wrong if it doesn't apply. The tone should be direct and confident, not arrogant. Avoid hedging language.",
+      "rules": [
+        "The hypothesis must be grounded in the property data provided — do not invent specifics.",
+        "Invite pushback — 'tell me I'm wrong' is acceptable.",
+        "Under 80 words in the body.",
+        "No links in the body.",
+        "Do not use the word 'probably' or 'maybe' — commit to the hypothesis."
+      ],
+      "voice_profile_sections": ["company_basics", "brand_voice", "market_positioning", "sender_identity"],
+      "examples": [
+        {
+          "subject": "My read on 1400 Executive Park Blvd",
+          "body": "Based on the age and profile of 1400 Executive Park Blvd, I'd bet the roof is either past its expected service window or approaching it — and if it hasn't been assessed in the last 3 years, you're flying blind on replacement timing.\n\nTell me I'm wrong. If you've had it looked at recently, I'll get out of your inbox.",
+          "target_role": "financial"
+        },
+        {
+          "subject": "Honest read on 1400 Executive Park Blvd",
+          "body": "A building that age in this climate — my guess is the roof is generating service calls that feel manageable now but are signaling the start of a longer problem. That's usually where facilities teams are when they finally call us.\n\nIf that's not where you are at Executive Park, tell me and I'll stand down.",
+          "target_role": "operational"
+        }
+      ],
+      "condition": null,
+      "word_limit": 80,
+      "allow_link_in_body": false
+    }
+  }
+}

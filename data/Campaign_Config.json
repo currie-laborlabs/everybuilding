@@ -1,0 +1,17 @@
+{
+  "client_id": "torres-commercial-roofing",
+  "client_name": "Torres Commercial Roofing",
+
+  "instantly_campaign_id": "REPLACE_WITH_INSTANTLY_CAMPAIGN_ID",
+  "sending_domain": "outreach.torrescommercialroofing.com",
+
+  "cadence_days_default": 60,
+  "cadence_days_not_now": 90,
+  "cadence_days_not_interested": 180,
+
+  "reports_recipient_email": "mike@torrescommercialroofing.com",
+  "reports_timezone": "America/New_York",
+
+  "spreadsheet_id": "REPLACE_WITH_GOOGLE_SPREADSHEET_ID",
+  "sheet_tab_name": "Leads"
+}

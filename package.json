@@ -1,0 +1,31 @@
+{
+  "name": "everybuilding-reonomy-scraper",
+  "version": "0.1.0",
+  "private": true,
+  "description": "EveryBuilding MVP — Reonomy commercial property scraper using Stagehand + Browserbase",
+  "scripts": {
+    "scrape": "tsx src/index.ts",
+    "scrape:debug": "tsx --inspect src/index.ts",
+    "check-credits": "tsx src/utils/checkCredits.ts",
+    "reset": "node -e \"const fs=require('fs');['./tmp/tier1-runtime.db','./tmp/tier1-checkpoint.json'].forEach(f=>{try{fs.rmSync(f);console.log('Deleted',f)}catch{console.log('Not found',f)}})\"",
+    "typecheck": "tsc --noEmit",
+    "test-keys": "tsx src/test-keys.ts",
+    "tier2:test": "tsx src/tier2/testFlow.ts"
+  },
+  "dependencies": {
+    "@browserbasehq/stagehand": "^2.0.0",
+    "dotenv": "^16.4.7",
+    "googleapis": "^171.4.0",
+    "p-queue": "^9.1.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
