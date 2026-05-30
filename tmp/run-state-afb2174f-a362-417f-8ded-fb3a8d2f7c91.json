@@ -1,0 +1,18 @@
+{
+  "runId": "afb2174f-a362-417f-8ded-fb3a8d2f7c91",
+  "createdAt": "2026-04-30T12:27:02.152Z",
+  "updatedAt": "2026-04-30T12:27:02.152Z",
+  "status": "running",
+  "stageStatus": {},
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": []
+}

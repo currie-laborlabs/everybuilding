@@ -1,0 +1,27 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : fafca0c4-331a-46de-a086-35aaf5b5833a
+Status               : completed
+ZIP Code             : 08542
+Max Pages            : 1
+Max Results          : unlimited
+Elapsed Time         : 382.6s
+Spreadsheet ID       : 1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI
+Sheet Tab            : Leads
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-fafca0c4-331a-46de-a086-35aaf5b5833a.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 39
+Normalized leads     : 16
+ATTOM enriched       : 16
+Contact candidates   : 18
+Verified contacts    : 18
+Rows appended        : 18
+Rows skipped         : 0
+Partial records      : 0
+----------------------------------------------
+Errors:
+none
+==============================================

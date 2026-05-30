@@ -21,19 +21,42 @@ async function checkAttomCredits(): Promise<void> {
 }
 
 async function checkApolloCredits(): Promise<void> {
+  console.log("\n📊 Apollo:");
+  const apiKey = config.providers.apollo.apiKey ?? "";
+
+  // Step 1: key validation (returns only {healthy, is_logged_in})
   try {
-    const response = await fetch(`${config.providers.apollo.baseUrl}/users/me`, {
-      headers: { "x-api-key": config.providers.apollo.apiKey ?? "" },
+    const res = await fetch(`${config.providers.apollo.baseUrl}/auth/health`, {
+      headers: { "x-api-key": apiKey },
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
-    const user = data.user ?? {};
-    console.log("\n📊 Apollo:");
-    console.log(`  Plan: ${user.organization_name ?? "unknown"}`);
-    console.log(`  Credits Used: ${user.credits_used ?? "unknown"}`);
-    console.log(`  Credits Limit: ${user.credits_limit ?? "unknown"}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    console.log(`  Key valid: ${data.is_logged_in ? "✅ yes" : "❌ no"}`);
+    if (!data.is_logged_in) return;
   } catch (error) {
-    console.error("❌ Apollo check failed:", error instanceof Error ? error.message : error);
+    console.error("  ❌ Auth check failed:", error instanceof Error ? error.message : error);
+    return;
+  }
+
+  // Step 2: probe /mixed_people/api_search to confirm plan access
+  try {
+    const res = await fetch(`${config.providers.apollo.baseUrl}/mixed_people/api_search`, {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-api-key": apiKey },
+      body: JSON.stringify({ q_organization_name: "acme", page: 1, per_page: 1 }),
+    });
+    if (res.status === 403) {
+      console.log("  People search: ⚠️  HTTP 403 — plan upgrade required for contact enrichment");
+    } else if (res.ok) {
+      const data = await res.json();
+      const count = data.people?.length ?? 0;
+      console.log(`  People search: ✅ Full access — ${count} result(s) on test query`);
+    } else {
+      const text = await res.text().catch(() => "");
+      console.log(`  People search: ❌ HTTP ${res.status} — ${text.slice(0, 120)}`);
+    }
+  } catch (error) {
+    console.error("  ❌ People search probe failed:", error instanceof Error ? error.message : error);
   }
 }
 

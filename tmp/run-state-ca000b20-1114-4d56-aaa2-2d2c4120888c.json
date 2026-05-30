@@ -1,0 +1,18 @@
+{
+  "runId": "ca000b20-1114-4d56-aaa2-2d2c4120888c",
+  "createdAt": "2026-04-24T15:11:51.942Z",
+  "updatedAt": "2026-04-24T15:11:51.942Z",
+  "status": "running",
+  "stageStatus": {},
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": []
+}

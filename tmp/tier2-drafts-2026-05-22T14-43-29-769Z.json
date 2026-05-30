@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-05-22T14:43:29.769Z",
+  "records": [
+    {
+      "status": "drafted",
+      "contact_email": "ralph@drugfreenj.org",
+      "contact_name": "Ralph A Larossa",
+      "property_id": "81543bbfcce0bbac",
+      "property_address": "1101 Madison St",
+      "cta_number": 4,
+      "cta_name": "interest_question",
+      "signature_blurb_type": "years_in_business",
+      "attempts": 1,
+      "validation_passed": true,
+      "validation_violations": [],
+      "email": {
+        "subject": "Roof at 1101 Madison St — maintenance timing",
+        "body": "Is the roof at 1101 Madison St on a planned maintenance schedule, or does your team typically address issues as they come up?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 24,
+        "cta_number_used": 4,
+        "cta_name_used": "interest_question"
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "generated_at": "2026-05-29T11:34:53.721Z",
+  "sheet_row": 6,
+  "contact_email": "ralph@drugfreenj.org",
+  "contact_name": "Ralph A Larossa",
+  "property_address": "1101 Madison St",
+  "mock_patches_applied": {
+    "year_built": "1962",
+    "square_feet": "42000",
+    "permit_summary": "No recent roof permit found on record. Building is 60+ years old with no documented roof replacement or major repair activity. High-probability candidate for deferred maintenance review.",
+    "last_permit_date": "2018-03-14",
+    "hazard_notes": "Urban commercial property in Hudson County. Situated in a coastal-adjacent flood corridor — periodic surge and high-wind exposure in winter months.",
+    "climate_notes": "NWS severe thunderstorm advisory for Hudson County, week of May 20 2026: 60 mph wind gusts and penny-size hail reported within 30 days of outreach date."
+  },
+  "records": [
+    {
+      "cta_number": 2,
+      "cta_name": "video_offer",
+      "status": "drafted",
+      "attempts": 1,
+      "validation_passed": true,
+      "violations": [],
+      "email": {
+        "subject": "Video walkthrough — roof assessment for 1101 Madison St",
+        "body": "Ralph, I put together a short video showing what a commercial roof assessment covers for a 42,000 sqft building like 1101 Madison St — what we document, what we look for, and what cost drivers typically show up for structures built in the early 1960s. It's specific to your property type, not a generic pitch. Want me to send it over?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 64,
+        "cta_number_used": 2,
+        "cta_name_used": "video_offer"
+      }
+    },
+    {
+      "cta_number": 5,
+      "cta_name": "case_study_offer",
+      "status": "drafted",
+      "attempts": 1,
+      "validation_passed": true,
+      "violations": [],
+      "email": {
+        "subject": "1101 Madison St — roof condition & deferred maintenance review",
+        "body": "Ralph, we completed a low-slope roof restoration on a 38,000 sqft commercial building in Jersey City—similar age and profile to 1101 Madison St. Work finished over two weekends with zero tenant disruption and locked in long-term asset protection before conditions became urgent. Your building hasn't had documented roof work in 60+ years; coastal exposure and recent wind advisories make a straight read valuable. I can send the full case study on reply.",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 73,
+        "cta_number_used": 5,
+        "cta_name_used": "case_study_offer"
+      }
+    },
+    {
+      "cta_number": 8,
+      "cta_name": "weather_trigger",
+      "status": "drafted",
+      "attempts": 1,
+      "validation_passed": true,
+      "violations": [],
+      "email": {
+        "subject": "Post-storm roof check — 1101 Madison St",
+        "body": "The severe thunderstorm that hit Hudson County last week brought 60 mph winds and penny-size hail — exactly what stresses flashings, seams, and membranes on older roofs. At 1101 Madison St, a 1962 building with no documented roof work in decades, hidden damage from that event could be accelerating deterioration.\n\nWe're doing post-storm assessments in Hoboken. Want a photo-documented inspection before any issues become urgent?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 79,
+        "cta_number_used": 8,
+        "cta_name_used": "weather_trigger"
+      }
+    },
+    {
+      "cta_number": 9,
+      "cta_name": "proximity",
+      "status": "drafted",
+      "attempts": 1,
+      "validation_passed": true,
+      "violations": [],
+      "email": {
+        "subject": "Working nearby — 1101 Madison St",
+        "body": "We're finishing a low-slope restoration in Jersey City this week, two miles from 1101 Madison St. Your building's 1962 vintage and coastal exposure mean deferred maintenance costs compound fast — especially with recent wind advisories in Hudson County.\n\nSince we're in the area, we can walk the roof and give you a real condition report. No obligation. Worth 20 minutes to know where you actually stand?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 72,
+        "cta_number_used": 9,
+        "cta_name_used": "proximity"
+      }
+    },
+    {
+      "cta_number": 10,
+      "cta_name": "hypothesis_challenge",
+      "status": "drafted",
+      "attempts": 1,
+      "validation_passed": true,
+      "violations": [],
+      "email": {
+        "subject": "My read on 1101 Madison St, Hoboken",
+        "body": "A 1962 building with no documented roof work on record — and 60+ years of Hudson County weather — tells me your roof is either past service life or very close. Winter wind exposure and coastal surge risk make timing critical before it becomes urgent.\n\nTell me I'm wrong. If you've had a real condition report in the last two years, I'll step back.",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 68,
+        "cta_number_used": 10,
+        "cta_name_used": "hypothesis_challenge"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : 301dfa35-b3d2-4344-8242-cac2942fafc2
+Status               : completed
+ZIP Code             : 08650
+Max Pages            : 1
+Max Results          : unlimited
+Elapsed Time         : 120.6s
+Spreadsheet ID       : 1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI
+Sheet Tab            : Leads
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-301dfa35-b3d2-4344-8242-cac2942fafc2.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 1
+Normalized leads     : 1
+ATTOM enriched       : 1
+Contact candidates   : 1
+Verified contacts    : 1
+Rows appended        : 1
+Rows skipped         : 0
+Partial records      : 1
+----------------------------------------------
+Errors:
+none
+==============================================

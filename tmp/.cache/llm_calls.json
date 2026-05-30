@@ -1,0 +1,3001 @@
+{
+  "dba24cf120396d3b0ab34f7ba242c4de562a025f16500867b2248b55c3de11b7": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-17",
+          "description": "Email input field where users can enter their email address",
+          "method": "fill",
+          "arguments": [
+            "jem@pmhoa.pro"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535894602,
+    "requestId": "n7hwtuv2v1j"
+  },
+  "34130bcacbbd92443b2dead3fdc0b2ff244fd408db7e37ad0560654d0f4414b7": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-18",
+          "description": "Password input field where the user can type their password",
+          "method": "fill",
+          "arguments": [
+            "Kirkland174!"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535903182,
+    "requestId": "mxy50o48ie"
+  },
+  "4cc728ca4aef281dd7740e6f72be8740533e209cb26de5eff4331221bd93339f": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-19",
+          "description": "The 'Log In' button to submit the login form",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535910838,
+    "requestId": "scftqf5mw3"
+  },
+  "a5866045a856ea42d0fc6c3221869f07678466d7cad7ddbfa80e16d457f7d19f": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-18",
+          "description": "Email input field where the user can type their email address",
+          "method": "fill",
+          "arguments": [
+            "jem@pmhoa.pro"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535564218,
+    "requestId": "xglbo9stdq"
+  },
+  "60a8c1fbd7a06fc257c1d5b28e46ecf8a5e77175cbe9cf82a3ca8579301c6bed": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-19",
+          "description": "Password input field where the user can type their password",
+          "method": "fill",
+          "arguments": [
+            "Kirkland174!"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535573645,
+    "requestId": "rbb8bn7lygg"
+  },
+  "3db6a2c153d75e4174cdaf03dc5885bc6e204ce6ec2d60f3aec1725a8b05428a": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-20",
+          "description": "Log In button to submit the login form",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535581514,
+    "requestId": "2qt6073xfa2"
+  },
+  "0cab1e642f39c64c67cbd0ca5454a78ca228e9d6a4233480379e4aa9e50ab395": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-339",
+          "description": "The input field for entering an address, location, or owner.",
+          "method": "fill",
+          "arguments": [
+            "7733"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535665059,
+    "requestId": "sr2q2yhex1g"
+  },
+  "05fa119a114532c5bee82ab903b23f54c1d820c9d9b037c7ac3fb074f6b43d54": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-1069",
+          "description": "Menu item for Valiant Monroe LLC, which owns 3 properties and has 1 contact in Hoboken, NJ",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1079",
+          "description": "Menu item for Antonio Valente, which owns 3 properties in Hoboken, NJ",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1089",
+          "description": "Menu item for the address 919 Park Ave, Hoboken, NJ 07030, categorized as Commercial General/Misc.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535676510,
+    "requestId": "h3vl3x6emqm"
+  },
+  "9d597b34705e726cce23a040be2c28d40c262328e9d59093bfe885405320beae": {
+    "data": {
+      "properties": [
+        {
+          "property_address": "919 Park Ave",
+          "city": "Hoboken",
+          "state": "NJ",
+          "zip_code": "07030",
+          "land_use": "Commercial General/Misc.",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": ""
+        }
+      ]
+    },
+    "timestamp": 1778535680969,
+    "requestId": "u3nnzx1x60p"
+  },
+  "ed7e0cf142edd644d2e5a1769b7b280703d6edfd4a66b7f5e546a7d92ce3006b": {
+    "data": {
+      "progress": "Extracted 1 commercial property listing with partial information.",
+      "completed": false
+    },
+    "timestamp": 1778535682177,
+    "requestId": "u3nnzx1x60p"
+  },
+  "b53667332486ee69e00d2f614261a98b907651c9126f70fdc397acfe0002e28c": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-2100",
+          "description": "The 'Owner' tab in the tab row for property details, allowing users to view owner information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535695484,
+    "requestId": "vzpp7hfta1s"
+  },
+  "1817edaef538bca1b303dbb87a63e77d2bb9fdd2a4e2a2a63bfd01ebd818b34c": {
+    "data": {
+      "owner_entity": "Valiant Monroe LLC",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "Nov 2024",
+      "primary_contact_name": "Antonio Valente",
+      "primary_contact_title": "Owner",
+      "phones": [
+        "201-222-1374"
+      ],
+      "emails": [],
+      "view_all_contacts_count": 1
+    },
+    "timestamp": 1778535709513,
+    "requestId": "0e7boldn7pk"
+  },
+  "2596a0a3eb8a7501364aefbe193239224141460557870d703f5ecf4f378c8378": {
+    "data": {
+      "progress": "Extraction task has been fully satisfied with all required fields populated correctly.",
+      "completed": true
+    },
+    "timestamp": 1778535710852,
+    "requestId": "0e7boldn7pk"
+  },
+  "254299e5eb74eb92bb0ba69566ed2810097549a9a4e9f425303d8cac62a1b139": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-2527",
+          "description": "View Contacts (1) button to open the full contacts list for this owner",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535714574,
+    "requestId": "oq4vd0dgdv"
+  },
+  "267dc38027e1627af8178a3ae8745474739729fb29bfed5eb788d9bb872bff86": {
+    "data": {
+      "contacts": [
+        {
+          "name": "Antonio Valente",
+          "relationship": "Owner",
+          "title": "Owner"
+        }
+      ]
+    },
+    "timestamp": 1778535726217,
+    "requestId": "znvse34jw3t"
+  },
+  "fa4c34acb2a524e2d5b29a8ddfeadcbc0df3ba1e0c8d9e1f430f967719249f45": {
+    "data": {
+      "progress": "Extracted 1 contact: Antonio Valente, Owner, Owner.",
+      "completed": true
+    },
+    "timestamp": 1778535727188,
+    "requestId": "znvse34jw3t"
+  },
+  "c6b85a31a14ddacfb98232a6f5adc4a57644e2f86a8bb3029b61dba27d643e81": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-2899",
+          "description": "The cell containing the name 'Antonio Valente' in the contacts table, which is relevant for expanding the contact information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535730818,
+    "requestId": "m7e8zrndtl"
+  },
+  "d3fdb9995743cc55cd06ff1d22fad32561363ccfe9676846f0df6549d535fd32": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778535741758,
+    "requestId": "e1go2nulbb"
+  },
+  "c58227169f22938384505b2830d6b77e9d8e3117e8a3815a3aa7505d332cb823": {
+    "data": {
+      "progress": "No phone numbers or email addresses were extracted for Antonio Valente.",
+      "completed": true
+    },
+    "timestamp": 1778535743468,
+    "requestId": "e1go2nulbb"
+  },
+  "c71ebf30ef8d47ae7b126777a766521571aace011e6563ae797cf5387d2e7047": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-1010",
+          "description": "Button to close the side panel or contact detail drawer, typically represented by an 'X' icon.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535747791,
+    "requestId": "txrtywo2er"
+  },
+  "d8bdb3c02b70fc5caaceb4a15066095fbdd25407dc7387646ae82dae441ff6bf": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-50",
+          "description": "The 'Back to results' button at the top of the page to return to the property search results.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535759171,
+    "requestId": "odl48okbeib"
+  },
+  "808d9437fbddaedddf03fa5ebac494004468ad731f70e26f073555db35d576e2": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-136",
+          "description": "Button to go to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535781634,
+    "requestId": "lxka3w2mt8d"
+  },
+  "18822f00cb206f98da4f139c861e95e3c4a711169c80ef2e481388510148155e": {
+    "data": {
+      "properties": []
+    },
+    "timestamp": 1778535792757,
+    "requestId": "if4o7hfr5jn"
+  },
+  "1a2999f355312ff32fe393fb58fe0d9c2c8fc7a3a1c088484a7429fb07d4c3fc": {
+    "data": {
+      "progress": "No commercial property listings were extracted from the results page; the properties array is empty.",
+      "completed": false
+    },
+    "timestamp": 1778535825583,
+    "requestId": "fps0egex2pt"
+  },
+  "d79926491e80b4984d12448da772717ea8c29079fb8b8c3d1c70c4cfd4467f76": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-136",
+          "description": "Button to go to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535797444,
+    "requestId": "igvayy6uuf"
+  },
+  "aad5c231e4cab4af43ac9168013019d54f4f2181c8aed56da8a776e9c976844b": {
+    "data": {
+      "properties": []
+    },
+    "timestamp": 1778535808488,
+    "requestId": "jog3lsnq1p"
+  },
+  "e9c881367e9248911e8ca1f33a7352ec0b526fd2a212f9b523456dbb56251042": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-136",
+          "description": "Button to go to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535813545,
+    "requestId": "3t2ck754hfm"
+  },
+  "274d3d53447275cf56da60433ecbe54d2c6ef43a1b68e18e8f9883fb1dbc4346": {
+    "data": {
+      "properties": []
+    },
+    "timestamp": 1778535824545,
+    "requestId": "fps0egex2pt"
+  },
+  "6a4d15d98abec5b1d21f0f51035c340c0b536273a95a8d4ba7517035efe16990": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-729",
+          "description": "The 'Next' button to navigate to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778535829299,
+    "requestId": "8dw9242d7kf"
+  },
+  "6af976ef21fcde84f08da991f13efee76c7699896f6317851cd1c81be9597c22": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-240",
+          "description": "The search input field where users can enter an address, location, or owner to search.",
+          "method": "fill",
+          "arguments": [
+            "7733"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778535986256,
+    "requestId": "u5x545l7cmh"
+  },
+  "59103f79c2a994d7d8129dd9e697b9ae1bbf163292ce955fdeba5784cc542ad3": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-1769",
+          "description": "Heading for the first property result, indicating the address 30 Dove Creek Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1824",
+          "description": "Heading for the second property result, indicating the address 295 Laura Hill Loop, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1875",
+          "description": "Heading for the third property result, indicating the address 390 Johnson Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1931",
+          "description": "Heading for the fourth property result, indicating the address Hickory Ridge Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-1986",
+          "description": "Heading for the fifth property result, indicating the address 30 Green Tree Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2044",
+          "description": "Heading for the sixth property result, indicating the address Breakwater Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2095",
+          "description": "Heading for the seventh property result, indicating the address York Creek Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2151",
+          "description": "Heading for the eighth property result, indicating the address Janning St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2203",
+          "description": "Heading for the ninth property result, indicating the address Breakwater Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2249",
+          "description": "Heading for the tenth property result, indicating the address 11450 Hwy 156, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2301",
+          "description": "Heading for the eleventh property result, indicating the address Butler St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2353",
+          "description": "Heading for the twelfth property result, indicating the address Cedar Valley Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2402",
+          "description": "Heading for the thirteenth property result, indicating the address River Terrace Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2457",
+          "description": "Heading for the fourteenth property result, indicating the address 14 S Fairway Loop, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2509",
+          "description": "Heading for the fifteenth property result, indicating the address Mourning Dove Trl, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2564",
+          "description": "Heading for the sixteenth property result, indicating the address Smith St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2616",
+          "description": "Heading for the seventeenth property result, indicating the address 599 Cora Brown Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2672",
+          "description": "Heading for the eighteenth property result, indicating the address 172 N Fairway Loop, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2727",
+          "description": "Heading for the nineteenth property result, indicating the address Breakwater Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2783",
+          "description": "Heading for the twentieth property result, indicating the address Harrell Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2838",
+          "description": "Heading for the twenty-first property result, indicating the address 10 Pine Cove Loop, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2892",
+          "description": "Heading for the twenty-second property result, indicating the address 21 N Butch Arther Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2947",
+          "description": "Heading for the twenty-third property result, indicating the address Scenic Woods Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-2999",
+          "description": "Heading for the twenty-fourth property result, indicating the address 251 Bridle Ln, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3052",
+          "description": "Heading for the twenty-fifth property result, indicating the address Ridge Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3110",
+          "description": "Heading for the twenty-sixth property result, indicating the address 6 Timberon Ln, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3167",
+          "description": "Heading for the twenty-seventh property result, indicating the address Valley Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3223",
+          "description": "Heading for the twenty-eighth property result, indicating the address Smith St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3278",
+          "description": "Heading for the twenty-ninth property result, indicating the address Fm 3128, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3327",
+          "description": "Heading for the thirtieth property result, indicating the address Hidden Cir, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3382",
+          "description": "Heading for the thirty-first property result, indicating the address 60 Wolf Creek Ln, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3434",
+          "description": "Heading for the thirty-second property result, indicating the address Reese Branch Ct, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3490",
+          "description": "Heading for the thirty-third property result, indicating the address 285 Reese Ln, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3536",
+          "description": "Heading for the thirty-fourth property result, indicating the address Fm 224, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3591",
+          "description": "Heading for the thirty-fifth property result, indicating the address Janning St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3640",
+          "description": "Heading for the thirty-sixth property result, indicating the address 999 Morris Creek Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3699",
+          "description": "Heading for the thirty-seventh property result, indicating the address Thornwood Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3745",
+          "description": "Heading for the thirty-eighth property result, indicating the address Holt St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3800",
+          "description": "Heading for the thirty-ninth property result, indicating the address 295 Bradley Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3866",
+          "description": "Heading for the fortieth property result, indicating the address 11 Baron Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3915",
+          "description": "Heading for the forty-first property result, indicating the address Timber Ln, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-3953",
+          "description": "Heading for the forty-second property result, indicating the address Mudd St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4002",
+          "description": "Heading for the forty-third property result, indicating the address 15131 State Highway 150 W, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4054",
+          "description": "Heading for the forty-fourth property result, indicating the address Cape Royal Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4097",
+          "description": "Heading for the forty-fifth property result, indicating the address Janning St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4153",
+          "description": "Heading for the forty-sixth property result, indicating the address Fm 3128, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4196",
+          "description": "Heading for the forty-seventh property result, indicating the address 315 Black Branch Rd, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4246",
+          "description": "Heading for the forty-eighth property result, indicating the address Janning St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4301",
+          "description": "Heading for the forty-ninth property result, indicating the address 211 Harbor Run Dr, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-4356",
+          "description": "Heading for the fiftieth property result, indicating the address Smith St, Coldspring, TX 77331",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536020355,
+    "requestId": "i8sez83yp6n"
+  },
+  "29709f4f81f4a51630c67845acd7c7e6d3b5b3257b7f5d9bd9e6b02770df90e3": {
+    "data": {
+      "properties": [
+        {
+          "property_address": "30 Dove Creek Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Shannan Calvert"
+        },
+        {
+          "property_address": "295 Laura Hill Loop",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Johnny Denson"
+        },
+        {
+          "property_address": "390 Johnson Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Alan Z Kexian Yang Yu, Anmin Ning"
+        },
+        {
+          "property_address": "Hickory Ridge Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Southwest Masonic Museum & Libary"
+        },
+        {
+          "property_address": "30 Green Tree Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Sean Dauterive, Dorothea C Taras"
+        },
+        {
+          "property_address": "Breakwater Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Donald Rex Wedgeworth"
+        },
+        {
+          "property_address": "York Creek Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Marc Harris, Shaina Harris"
+        },
+        {
+          "property_address": "Janning St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Katherine Lindsey"
+        },
+        {
+          "property_address": "Breakwater Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Patsy R Prosis"
+        },
+        {
+          "property_address": "11450 Hwy 156",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Joe N Harden"
+        },
+        {
+          "property_address": "Butler St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Tax Exempt",
+          "square_feet": "11520",
+          "year_built": "",
+          "owner_entity": "Senior Citizens Of"
+        },
+        {
+          "property_address": "Cedar Valley Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "James Elmore"
+        },
+        {
+          "property_address": "River Terrace Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Roberto A Rosales"
+        },
+        {
+          "property_address": "14 S Fairway Loop",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Robert G Stewart, Sandra M Stewart"
+        },
+        {
+          "property_address": "Mourning Dove Trl",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Robin T Lane"
+        },
+        {
+          "property_address": "Smith St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "San Jacinto County"
+        },
+        {
+          "property_address": "599 Cora Brown Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Linda Stevens, Jack G Stevens"
+        },
+        {
+          "property_address": "172 N Fairway Loop",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Linda Christine Carroll"
+        },
+        {
+          "property_address": "Breakwater Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Dewayne O Hudman, Kathryn A Hudman"
+        },
+        {
+          "property_address": "Harrell Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "San Jacinto County"
+        },
+        {
+          "property_address": "10 Pine Cove Loop",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Ronald Eugene Bailey"
+        },
+        {
+          "property_address": "21 N Butch Arther Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Commercial (General)",
+          "square_feet": "4920",
+          "year_built": "2001",
+          "owner_entity": "Mark Hamilton, Ladonyce Hamilton"
+        },
+        {
+          "property_address": "Scenic Woods Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Kyle Brent Padgett"
+        },
+        {
+          "property_address": "251 Bridle Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Dena Atkinson"
+        },
+        {
+          "property_address": "Ridge Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "John E Mangiameli, Mae Deanna Mangiameli"
+        },
+        {
+          "property_address": "6 Timberon Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Beverly R Broome"
+        },
+        {
+          "property_address": "Valley Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Ruben D Castellanos, Martha H Castellanos"
+        },
+        {
+          "property_address": "Smith St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Choice Properties Llc"
+        },
+        {
+          "property_address": "Fm 3128",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Monk Naboo Llc"
+        },
+        {
+          "property_address": "Hidden Cir",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Dora M Garcia"
+        },
+        {
+          "property_address": "60 Wolf Creek Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Mary L Trevino"
+        },
+        {
+          "property_address": "Reese Branch Ct",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Gary Lemere, Vicki Lemere"
+        },
+        {
+          "property_address": "285 Reese Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Clara Sue Roberts"
+        },
+        {
+          "property_address": "Fm 224",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "David Tolf"
+        },
+        {
+          "property_address": "Janning St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Tim L Stewart"
+        },
+        {
+          "property_address": "999 Morris Creek Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Larry Hair"
+        },
+        {
+          "property_address": "Thornwood Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Mary Garrett Anderson"
+        },
+        {
+          "property_address": "Holt St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Camilla Investments Llc"
+        },
+        {
+          "property_address": "295 Bradley Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Lee Anna Walker"
+        },
+        {
+          "property_address": "11 Baron Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Marilyn Simpson"
+        },
+        {
+          "property_address": "Timber Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Texas Chiropratic College"
+        },
+        {
+          "property_address": "Mudd St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "James Everett"
+        },
+        {
+          "property_address": "15131 State Highway 150 W",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Commercial (General)",
+          "square_feet": "924",
+          "year_built": "1970",
+          "owner_entity": "Rt 440 Investments Llc"
+        },
+        {
+          "property_address": "Cape Royal Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Wctcb Llc"
+        },
+        {
+          "property_address": "Janning St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Floyd B Franklin, Laquitta Franklin"
+        },
+        {
+          "property_address": "Fm 3128",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Coldspring Harbor Ranch Llc"
+        },
+        {
+          "property_address": "315 Black Branch Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Shaney Borieo, Franklin Maresh"
+        },
+        {
+          "property_address": "Janning St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Shirley Lorraine Miller"
+        },
+        {
+          "property_address": "211 Harbor Run Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Jeanne Lake Mcelvogue"
+        },
+        {
+          "property_address": "Smith St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Clyde Jewel Bowen"
+        }
+      ]
+    },
+    "timestamp": 1778536094130,
+    "requestId": "w8bjl2dd5v"
+  },
+  "6856ef8d6bd67b4aae47739b560ffe988254f41c6bf42a2147284ce3a22945c1": {
+    "data": {
+      "progress": "Extracted all commercial property listings from the results page, including details for each property.",
+      "completed": true
+    },
+    "timestamp": 1778536095526,
+    "requestId": "w8bjl2dd5v"
+  },
+  "f735d6dfbe1f41200750116a4447ec451bc2de95e617421c780070b5ba3848c2": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-2891",
+          "description": "The card for the property located at '21 N Butch Arther Rd', which can be clicked to open the property detail.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536102590,
+    "requestId": "owj8lcl2whs"
+  },
+  "2d7d51583238081bd54f24ce58a6fed09616e3619c6aa6cb74de815757c2c43d": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5196",
+          "description": "The 'Owner' tab in the tab list on the property detail page, which allows users to view owner information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536120381,
+    "requestId": "nrvkjzlp5i"
+  },
+  "776ef73974e00a2d7461473e142c1e37ac28a3708ff75821c3597fb9fd941a03": {
+    "data": {
+      "owner_entity": "Choice Properties Llc",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "",
+      "primary_contact_name": "",
+      "primary_contact_title": "",
+      "phones": [],
+      "emails": [],
+      "view_all_contacts_count": 19
+    },
+    "timestamp": 1778536133490,
+    "requestId": "b0ves88a6vg"
+  },
+  "33290d4182315503420896e0ec760938a25a3a62dc1b8cfe0ba612066bf5b29d": {
+    "data": {
+      "progress": "The extraction response has provided the owner entity name as 'Choice Properties Llc', fulfilling the instruction requirements. Other fields are either empty or populated as specified.",
+      "completed": true
+    },
+    "timestamp": 1778536134846,
+    "requestId": "b0ves88a6vg"
+  },
+  "bd1525332fd7a50e6d3f1fb732e437f48ab1fefd2036a28f3b5bbb89ffb975dc": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-3263",
+          "description": "View All 19 Contacts link to open the full contacts list for this owner",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536139088,
+    "requestId": "1s94frpqzj7"
+  },
+  "8d08c005653199e23246730fc0ebe36717beb0bf56838a2e435bfbe1a0b6227a": {
+    "data": {
+      "contacts": [
+        {
+          "name": "David E Neff",
+          "relationship": "Manager",
+          "title": "Manager"
+        },
+        {
+          "name": "Lei M Hemphill",
+          "relationship": "Member",
+          "title": "Member"
+        },
+        {
+          "name": "Cliff Alameda",
+          "relationship": "Governor",
+          "title": "Governor"
+        },
+        {
+          "name": "Samuel R Peacemaker",
+          "relationship": "Governor",
+          "title": "Governor"
+        },
+        {
+          "name": "Jace R Harris",
+          "relationship": "Manager",
+          "title": "Manager"
+        }
+      ]
+    },
+    "timestamp": 1778536165689,
+    "requestId": "np1dfdmw8m9"
+  },
+  "58438f8c1506465ae320648a749e593522641044cd12c6be53a1f1d7ed72ed59": {
+    "data": {
+      "progress": "Extracted 5 contacts with their names, relationships, and titles as required.",
+      "completed": true
+    },
+    "timestamp": 1778536600739,
+    "requestId": "q1jmedw9jn"
+  },
+  "abd18b92e2471322f908d2f70a1137ea5d1f5c909512d7b9b0d6f15eefbdb262": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-6731",
+          "description": "The button for 'David E Neff' in the contacts table, which can be clicked to expand the row or access contact information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536172455,
+    "requestId": "ka5k68ee0xe"
+  },
+  "d2cbce1c35591e60e17979c80dc15d544b664daf34c1a6c83d7e870399ae32c7": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536182747,
+    "requestId": "d4rgfdetqgr"
+  },
+  "aa76506f5b91c13e1aba52c05ead5de8e0a00e54fff250d72d3ff2edb18a3c08": {
+    "data": {
+      "progress": "No phone numbers or email addresses were extracted for David E Neff.",
+      "completed": true
+    },
+    "timestamp": 1778536620289,
+    "requestId": "77qshnt408"
+  },
+  "8c7caa31e0ea9d6ff5717ac794ee0d576151b876872fb24852fdb23ff9de0680": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-596",
+          "description": "Button to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536187623,
+    "requestId": "pyd0x87sckm"
+  },
+  "846c4377bd3e603c2c81759a766d4dcd7198ef098e25fc98d5badcc98c5ae043": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-475",
+          "description": "The row for 'Lei M Hemphill' in the contacts table, which contains the expand arrow and contact info icons.",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-477",
+          "description": "The expand arrow '>' chevron on the LEFT side of the row for 'Lei M Hemphill' to expand it.",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-483",
+          "description": "The phone icon on the RIGHT side of the row for 'Lei M Hemphill' to view contact information.",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-487",
+          "description": "The email icon on the RIGHT side of the row for 'Lei M Hemphill' to view contact information.",
+          "method": "click",
+          "arguments": []
+        },
+        {
+          "elementId": "0-491",
+          "description": "The data icon on the RIGHT side of the row for 'Lei M Hemphill' to view contact information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536200540,
+    "requestId": "q3t2ko8flzl"
+  },
+  "6c4de1e34a8f639775c5f2ac6958eb7ca1a626a14e21abe37a46140cfdc09696": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536212022,
+    "requestId": "1vhqjyowjki"
+  },
+  "1aa2af105a5d441ce315bc050807e87c365fc58834de0ce882c73b01616f533f": {
+    "data": {
+      "progress": "No phone numbers or email addresses were extracted from the panel for Lei M Hemphill.",
+      "completed": true
+    },
+    "timestamp": 1778536648289,
+    "requestId": "3zv08fmqp7c"
+  },
+  "8e77913ab0dfd14a8b0ba7106dae5c3aff0424e0731baa9f8ef4bd4ceaf9753b": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-765",
+          "description": "Close button for the Intercom Messenger iframe, used to close the side panel or contact detail drawer.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536342419,
+    "requestId": "0jttxb8tq74"
+  },
+  "5e6b36f43a0a0135e72e019eaa1d53a79d92e939749d7da096a71d1d7034bd63": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-470",
+          "description": "The expand arrow '>' chevron on the LEFT side of the row for 'Cliff Alameda' in the contacts table.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536230464,
+    "requestId": "trgxroqx61s"
+  },
+  "d719a55ee7ce17fda5d434f4545914caaa86ac5e84045acefab6ab2086e054bd": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536244233,
+    "requestId": "fpzuy7mqb4a"
+  },
+  "aad7cdf6b43de8f0e178cd44f8460f67ddd62a7c84bdc5d8b77d89bedb01eff1": {
+    "data": {
+      "progress": "No phone numbers or email addresses were found in the extraction response for Cliff Alameda.",
+      "completed": true
+    },
+    "timestamp": 1778536675656,
+    "requestId": "pq0w530quy"
+  },
+  "e8d20feb5dc2f3ce7972bfa8d4661a4a659e30db6c94c9562c31799482711801": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-71",
+          "description": "Contact button for Samuel R Peacemaker, located in the contacts table row.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536291031,
+    "requestId": "h0yo4urwjvp"
+  },
+  "77f44faea048f6ef4d1de5e0585d2f23a8e61570874dcb0f6eabf463a9d3096c": {
+    "data": {
+      "phones": [
+        "615-473-2376",
+        "1-815-758-3437",
+        "1-510-388-6333",
+        "724-749-5304",
+        "1-215-681-6333"
+      ],
+      "emails": [
+        "davineff@gmail.com",
+        "juliejet27@yahoo.com",
+        "nff5kay@yahoo.com",
+        "davehuffy@yahoo.com",
+        "kneff3rocks@gmail.com"
+      ]
+    },
+    "timestamp": 1778536305989,
+    "requestId": "jiod47tg8h8"
+  },
+  "a294ecf5ea330bfb97b259748d6c486b0d0ecd3e1e783af2af88d1a27c4e940b": {
+    "data": {
+      "progress": "All requested phone numbers and email addresses for Samuel R Peacemaker have been extracted successfully.",
+      "completed": true
+    },
+    "timestamp": 1778536707811,
+    "requestId": "8l7z5mah073"
+  },
+  "744b8c4b46b5f9a202d7dd3ea4d1f08a3a8eafae491821fabed1600ce41b26e5": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-806",
+          "description": "Close button (X) to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536311254,
+    "requestId": "015u87ix5p90f"
+  },
+  "19e1cc63313ee504bf1736eea688be719f9e8c2e5257a931f5c45ec6b2f4cda0": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-470",
+          "description": "The expand arrow '>' chevron on the LEFT side of the row for 'Jace R Harris' in the contacts table.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536324567,
+    "requestId": "lwy2lr0cppl"
+  },
+  "2cc880ec33e6e055c41501f9c13465ab874e8dad8da504e9230e139c47ef42bd": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536337883,
+    "requestId": "piygx5diiu"
+  },
+  "f69bb4b02f49ef1cf92c0a374e5a4b689c99ec121128358e4d89e872f87c671e": {
+    "data": {
+      "progress": "No phone numbers or email addresses were extracted for Jace R Harris.",
+      "completed": true
+    },
+    "timestamp": 1778536736901,
+    "requestId": "opjf92ylbqn"
+  },
+  "d2245a7fba5c608fdb7ca1191eb63cda46eecd5c20d9b86ad747bda1db6abd29": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-167",
+          "description": "The '← Property List' link at the top of the page to return to the property search results.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536353723,
+    "requestId": "zdi8b2okg6b"
+  },
+  "2f145002bb583eef3e5dd083214661cd5123c93389c0b4c9e6913b8200e89589": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-4130",
+          "description": "The heading for the property located at 15131 State Highway 150 W, which can be clicked to open the property detail.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536376605,
+    "requestId": "7tmcz2gy1nq"
+  },
+  "8f738d1c26f8f52cca3e5447356f743121eb2da3684ff3a81154a18e111bd77e": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5378",
+          "description": "The 'Owner' tab in the tab row for property details, allowing users to view owner information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536391637,
+    "requestId": "7ozve5jz3rh"
+  },
+  "08ed6462acf2bf82c6f3ceb3602f06aac3bbbbf3ad508f0f8064171804a6bcb9": {
+    "data": {
+      "owner_entity": "Rt440 Investments, LLC",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "Oct 2018",
+      "primary_contact_name": "Karl Smith",
+      "primary_contact_title": "Principal",
+      "phones": [
+        "417-546-4444"
+      ],
+      "emails": [],
+      "view_all_contacts_count": 2
+    },
+    "timestamp": 1778536414183,
+    "requestId": "h683gq47de"
+  },
+  "671c254380ec3919c61d141a137c4cb52770794dc42a9e4dc8cd3d3452e932ec": {
+    "data": {
+      "progress": "Extraction task has been fully satisfied with all required fields populated appropriately.",
+      "completed": true
+    },
+    "timestamp": 1778536805355,
+    "requestId": "gjyojxc1e15"
+  },
+  "0e7355cda251b271b27e21caea5ee6ef9727ba8a4b20bdc2581852f497489f09": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5431",
+          "description": "View Contacts (2) button to open the full contacts list for this owner",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536419852,
+    "requestId": "k9k4bal6w2"
+  },
+  "04211ad7592c52c7d80578493f1e6c318e473c961eaeb9857bab4b4358fe387b": {
+    "data": {
+      "contacts": [
+        {
+          "name": "Karl Smith",
+          "relationship": "Owner",
+          "title": "Principal"
+        },
+        {
+          "name": "Karl Smith",
+          "relationship": "Owner",
+          "title": "Manager"
+        }
+      ]
+    },
+    "timestamp": 1778536433302,
+    "requestId": "9d3ujdv1cac"
+  },
+  "1011a124830ffc5bb13ad3e33b58577961afe5f15fbe24ce842f681314c0b0c9": {
+    "data": {
+      "progress": "Extracted 2 contacts: Karl Smith with roles Owner/Principal and Owner/Manager.",
+      "completed": true
+    },
+    "timestamp": 1778536824767,
+    "requestId": "sv3ky2y9zlp"
+  },
+  "29c00f5356466d34890c0935048b65b365acc9bb0e0ab559dcc2db0ea7112d06": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5950",
+          "description": "The expand arrow '>' chevron on the LEFT side of the row for 'Karl Smith' to expand the contact details.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536438613,
+    "requestId": "uaxoslmlwqd"
+  },
+  "aeccb300551208decf9f111f6400c9513d8e06e5cf0f7cc175c5fe6e3d4ac768": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536449646,
+    "requestId": "ot3ex0y0cu"
+  },
+  "69ecd4047036d6a11fdaf870d4064df2c5b964784622e8666676ad0bf4c6ec2f": {
+    "data": {
+      "progress": "No phone numbers or email addresses were found in the extraction response for 'Karl Smith'.",
+      "completed": true
+    },
+    "timestamp": 1778536867345,
+    "requestId": "s8bd5gcajaf"
+  },
+  "1877fb790338550947af5290c943f30612d25c303b3011b350c0aea325ec3615": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-4575",
+          "description": "Button to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536454840,
+    "requestId": "mnbf3hwr9x"
+  },
+  "a054e874d018016407b8608d7a34e97cdd27e84e705dec2a2afa2e56d09b7931": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-6006",
+          "description": "The expand arrow '>' chevron button on the LEFT side of the row for 'Karl Smith' to expand the contact details.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536465907,
+    "requestId": "hqc3vtusizp"
+  },
+  "45574e2c732ade3f6cb6323fd6ef4744ab511509e6687358f3662ff675c87939": {
+    "data": {
+      "phones": [
+        "417-546-4444"
+      ],
+      "emails": []
+    },
+    "timestamp": 1778536480429,
+    "requestId": "bdae23y6qgd"
+  },
+  "203508886f366f3d22a6337cd908a0d6382bd8f8d3e91d279e01139e40808050": {
+    "data": {
+      "progress": "Extracted 1 phone number and no email addresses for Karl Smith.",
+      "completed": true
+    },
+    "timestamp": 1778536481701,
+    "requestId": "bdae23y6qgd"
+  },
+  "958f17c0ac49e412028bb212e8a8205a490077689ad9d73f64ed70a1741ba3d7": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-6234",
+          "description": "Close button (X) to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536485372,
+    "requestId": "7o0vedr5x2f"
+  },
+  "cec6a374cb2b2240263919b3f63cf4ef22c83f8f7788e45d75581df71e402ea4": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-1356",
+          "description": "The '← Property List' link at the top of the page to return to the property search results.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536498552,
+    "requestId": "vpfbcu2n7wq"
+  },
+  "2f98fae6e9d5ee250ab66165c1d0313a872ec3773ef73ecbf76c406f6a27f85b": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-9946",
+          "description": "Button to navigate to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536519032,
+    "requestId": "1bao27gpngi"
+  },
+  "6dd2486a60503983d444dfa61e522887eb8db0f235573b456e5db1b000a0277b": {
+    "data": {
+      "properties": [
+        {
+          "property_address": "21 N Butch Arther Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Commercial (General)",
+          "square_feet": "4920",
+          "year_built": "2001",
+          "owner_entity": "Mark Hamilton, Ladonyce Hamilton"
+        },
+        {
+          "property_address": "15131 State Highway 150 W",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Commercial (General)",
+          "square_feet": "924",
+          "year_built": "1970",
+          "owner_entity": "Rt 440 Investments Llc"
+        },
+        {
+          "property_address": "",
+          "city": "",
+          "state": "",
+          "zip_code": "",
+          "land_use": "",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": ""
+        }
+      ]
+    },
+    "timestamp": 1778536534438,
+    "requestId": "95w83n0cc96"
+  },
+  "5202dca5c314db9e1c8a4e11686d48383ae43fa64980bb04764a0db9e9723d75": {
+    "data": {
+      "progress": "Extracted 2 commercial property listings with complete details and 1 listing with empty fields.",
+      "completed": true
+    },
+    "timestamp": 1778536535535,
+    "requestId": "95w83n0cc96"
+  },
+  "974e13cb1ec17618f897ba1569962339e5973a16f01feb241f7bf6675deb3d51": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-8407",
+          "description": "The card for the property located at 21 N Butch Arther Rd, which can be clicked to open the property detail.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536541181,
+    "requestId": "vdjfyvxdsji"
+  },
+  "e6fd8cba8adf1c699af8192afb3727e7c676436bbedea544d3072b4d6328320e": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-10857",
+          "description": "The 'Owner' tab in the tab list for property details, allowing users to view owner information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536555130,
+    "requestId": "cqcwcg47zc"
+  },
+  "216143a29f41c12947761fb1118ebae4394e1d03d53d43ffa15daafe42cde0e7": {
+    "data": {
+      "owner_entity": "Choice Properties Llc",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "",
+      "primary_contact_name": "",
+      "primary_contact_title": "",
+      "phones": [
+        "903-278-7226",
+        "1-903-278-7226"
+      ],
+      "emails": [
+        "cairnquilter@aol.com",
+        "cairnquilter@concentric.net"
+      ],
+      "view_all_contacts_count": 19
+    },
+    "timestamp": 1778536568108,
+    "requestId": "uphapxkmtpm"
+  },
+  "ec4eb07b1b915e4bd4599caa330f775b85d7c87163bca55650e5478dea516a6c": {
+    "data": {
+      "progress": "Extraction task has been fully satisfied with all required fields populated correctly based on the provided instruction.",
+      "completed": true
+    },
+    "timestamp": 1778536569266,
+    "requestId": "uphapxkmtpm"
+  },
+  "86d38dfe77e5d9d4483f34b8810b104611b6b9b91d811fa76353b98bf39ca7e4": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-8784",
+          "description": "The 'View Contacts (19)' button to open the full contacts list for this owner.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536573822,
+    "requestId": "jzfgn3a7km9"
+  },
+  "3b3fda223f96ab006d5b7fc298685af283829e65012d2a90f86f7655ed25bd7d": {
+    "data": {
+      "contacts": [
+        {
+          "name": "David E Neff",
+          "relationship": "Manager",
+          "title": "Manager"
+        },
+        {
+          "name": "Lei M Hemphill",
+          "relationship": "Member",
+          "title": "Member"
+        },
+        {
+          "name": "Cliff Alameda",
+          "relationship": "Governor",
+          "title": "Governor"
+        },
+        {
+          "name": "Samuel R Peacemaker",
+          "relationship": "Governor",
+          "title": "Governor"
+        },
+        {
+          "name": "Jace R Harris",
+          "relationship": "Manager",
+          "title": "Manager"
+        }
+      ]
+    },
+    "timestamp": 1778536599503,
+    "requestId": "q1jmedw9jn"
+  },
+  "11243b50324ba7a354be6d2250ecc0fa6497d5c1a5c5712b0df73f58a57afee2": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-12183",
+          "description": "The button for 'David E Neff' in the contacts table, which can be clicked to expand the row or access contact information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536608317,
+    "requestId": "qfkgdd66s7j"
+  },
+  "2012a705718eb3f8743147adafe377e0e64b3ef0f4b761496c284c61766af3f7": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536618606,
+    "requestId": "77qshnt408"
+  },
+  "c7bbdd0bd281af3aa36c568cf928a3249c20d8f33da9b5d9ba2ced66e110b43c": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-600",
+          "description": "Open Intercom Messenger button, which likely contains the close functionality for the side panel or contact detail drawer.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536623876,
+    "requestId": "mmmlszkjj7"
+  },
+  "57fba4fdc470c080a325d45801ac8ac000fda06227fd515c80d2396a44b7caed": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-479",
+          "description": "Row for 'Lei M Hemphill' in the contacts table, which includes an expand arrow on the left side and contact info icons on the right side.",
+          "method": "click",
+          "arguments": [
+            "#expand-arrow-lei-m-hemphill"
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778536636216,
+    "requestId": "bxeiy1dvzcu"
+  },
+  "957933504c94c3ef6e262457fd0580e3e165a4fe025e0a50c76dd662f579b956": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536647268,
+    "requestId": "3zv08fmqp7c"
+  },
+  "9d01a834ab1abf03c0f197d28fc1784544e3550b01f97268e7ec00bbe6439583": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-769",
+          "description": "Close button for the Intercom Messenger iframe, used to close the chat panel.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536740499,
+    "requestId": "c3k9fmcm2et"
+  },
+  "113279fb4233d6c58b098974bdc58a0aefb3954d5e6e02308028eed2e161c27f": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-440",
+          "description": "The row for 'Cliff Alameda' in the contacts table, which contains the expand arrow on the left side.",
+          "method": "click",
+          "arguments": [
+            ""
+          ]
+        }
+      ]
+    },
+    "timestamp": 1778536663651,
+    "requestId": "j286agys8vd"
+  },
+  "d4e59389bb669fa4515e643e8d4fa0e52058605165d07b06e889c689c236091c": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536674346,
+    "requestId": "pq0w530quy"
+  },
+  "2c9eb918d24a812054f0829bf8edc082cf60888bccdda578910b2ce0b2d226b9": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-76",
+          "description": "Contact button for Samuel R Peacemaker, located in the contacts table row for the contact information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536692090,
+    "requestId": "g1g9atatxak"
+  },
+  "911df49df8e637e97c2cc45fbd7de4c8fd4e43bc8c66df191415e93665d25c3a": {
+    "data": {
+      "phones": [
+        "615-473-2376",
+        "1-815-758-3437",
+        "1-510-388-6333",
+        "724-749-5304",
+        "1-215-681-6333"
+      ],
+      "emails": [
+        "davineff@gmail.com",
+        "juliejet27@yahoo.com",
+        "nff5kay@yahoo.com",
+        "davehuffy@yahoo.com",
+        "kneff3rocks@gmail.com"
+      ]
+    },
+    "timestamp": 1778536706878,
+    "requestId": "8l7z5mah073"
+  },
+  "de7170af7f13867711332a48ee8c3933f9b78f400b0014a3b944c3825f7b1100": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-810",
+          "description": "Close button (X) to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536711315,
+    "requestId": "iqqbfhsahkg"
+  },
+  "d46238ca7ce0ad4c4bd06378d98c28c8b76ee2eb9eae3ed7a61b653963effb8d": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-570",
+          "description": "The expand arrow '>' chevron on the LEFT side of the row for 'Jace R Harris' in the contacts table.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536724740,
+    "requestId": "dhdi3eowpho"
+  },
+  "b36dcceb15cceace4cb2e5d894df90374c655dd831887342428a1e23a7c52d04": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536735902,
+    "requestId": "opjf92ylbqn"
+  },
+  "bed9cfa6ca07eac3aecf351ec2550e3a4558e8cc86906f5b5b8cc29de2403279": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-172",
+          "description": "The '← Property List' link at the top of the page to return to the property search results.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536751867,
+    "requestId": "c1aha66c4w7"
+  },
+  "f05de35bac3484c7b9a48f286a12c63e33a4a1de564e9e0e2edfa8399a1247fd": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-4130",
+          "description": "The heading for the property '15131 State Highway 150 W', which can be clicked to open the property detail.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536774474,
+    "requestId": "fatunwvoypb"
+  },
+  "2072047709f0592f01dd7fa2d166561e7348193ce6d3964e313c450a8fa20691": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5388",
+          "description": "The 'Owner' tab in the tab row for property details, allowing users to view owner information.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536790952,
+    "requestId": "7s1jq53s1j9"
+  },
+  "a4285c710c438068cd0b84ba50a6f17baa0cd9cd49aef1b7bf9fe0f48df78241": {
+    "data": {
+      "owner_entity": "Rt440 Investments, LLC",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "Oct 2018",
+      "primary_contact_name": "Karl Smith",
+      "primary_contact_title": "Principal",
+      "phones": [
+        "417-546-4444"
+      ],
+      "emails": [],
+      "view_all_contacts_count": 2
+    },
+    "timestamp": 1778536804380,
+    "requestId": "gjyojxc1e15"
+  },
+  "46421ce6935c6e8558a272c421c8c6eea0a93325b2d5d101d5150fd948546e61": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5441",
+          "description": "View Contacts (2) button to open the full contacts list for this owner",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536810777,
+    "requestId": "x64964ti7gf"
+  },
+  "69a13a18ffa4b727cc4eba923bef3634f80f89a3d2765fc41ab6417f8b2967ad": {
+    "data": {
+      "contacts": [
+        {
+          "name": "Karl Smith",
+          "relationship": "Owner",
+          "title": "Principal"
+        },
+        {
+          "name": "Karl Smith",
+          "relationship": "Owner",
+          "title": "Manager"
+        }
+      ]
+    },
+    "timestamp": 1778536823202,
+    "requestId": "sv3ky2y9zlp"
+  },
+  "66ef292049fb07ae9700e1bacd46c024133308a8c1e2da9d3f00462aad1a7685": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5963",
+          "description": "The row for 'Karl Smith' in the contacts table, which contains the contact info icons on the right side.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536828491,
+    "requestId": "nfmo2lcrmzg"
+  },
+  "07c788898649abcc24fb60cf1fa3d3991184309e1c4276a3f9c75476ee3c07c2": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536839110,
+    "requestId": "6yiwy4abmy4"
+  },
+  "68e50c0a5c650f08c611b792d912b4406c91777e2bb3bac8bf45fccd0bbb08fd": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-4580",
+          "description": "Button to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536843840,
+    "requestId": "1k67qi8u2sf"
+  },
+  "cf8c4a1fedeabf2657ed2da55fb147fa423c22894422bf05c467835d821a9603": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-5995",
+          "description": "The cell containing the name 'Karl Smith' in the contacts table, which is the second row of the table.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536855064,
+    "requestId": "q8qtvsgh0e"
+  },
+  "c93865d22334be3744094bb4c64121c368c7bb2171c64b918303bafd19366ad2": {
+    "data": {
+      "phones": [],
+      "emails": []
+    },
+    "timestamp": 1778536865694,
+    "requestId": "s8bd5gcajaf"
+  },
+  "ee8260bca2464a6a007cfbbb3ad095779ad2cf8aa559ad7236ff16f3b24ba59d": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-6200",
+          "description": "Close Intercom Messenger button to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536870803,
+    "requestId": "f4mfk95vgpm"
+  },
+  "d66d16bbc4214f8dab584e669f7416504311ab9f42cb3d7b4de7670f3f2e8f42": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-1417",
+          "description": "The 'Open account' button which may serve as a link to return to the property search results.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536882264,
+    "requestId": "caous281az5"
+  },
+  "24e1307f73a4e215d0607c8fd144024350b418b43aca5f85a3299d20f88d8032": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-9867",
+          "description": "Button to navigate to the next page of results",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536906649,
+    "requestId": "6ag07mdn2gp"
+  },
+  "c5077d600abd51836e409c4085073693caa42ae681c3fbfd1244c58bd42efc81": {
+    "data": {
+      "properties": [
+        {
+          "property_address": "70 Tall Timbers Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Eltra Anneice Wood"
+        },
+        {
+          "property_address": "Mcmurrey Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Tiger Fan Llc"
+        },
+        {
+          "property_address": "15220 Hwy 150 W",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Commercial (General)",
+          "square_feet": "2320",
+          "year_built": "1970",
+          "owner_entity": "Coldspring Paradise Companies Llc"
+        },
+        {
+          "property_address": "28617 Thornwood Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Brian Cosme"
+        },
+        {
+          "property_address": "Hwy 150 W",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Bryan M Harvey, Bobbie L Harvey"
+        },
+        {
+          "property_address": "Hillcrest Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Clint Parker Warren"
+        },
+        {
+          "property_address": "Town Creek Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Red River Oil & Gas Llc"
+        },
+        {
+          "property_address": "Harrell Rd",
+          "city": "Pointblank",
+          "state": "TX",
+          "zip_code": "77364",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Naro Mak"
+        },
+        {
+          "property_address": "830 Spring Ridge Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Robert E Moore"
+        },
+        {
+          "property_address": "261 Franklyn Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Douglas R Trevino"
+        },
+        {
+          "property_address": "Fm 945 S",
+          "city": "Cleveland",
+          "state": "TX",
+          "zip_code": "77328",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Lake Livingston Ranch Llc"
+        },
+        {
+          "property_address": "7551 Fm 224 Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Colby Brandt"
+        },
+        {
+          "property_address": "Fm 946 S",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Lela Thomson"
+        },
+        {
+          "property_address": "1770 Fm 1514 Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Diane Love Maness"
+        },
+        {
+          "property_address": "621 Robison Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Linda Taylor"
+        },
+        {
+          "property_address": "2505 N Butch Arther Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Toan Quoc, Thao Thi Bui"
+        },
+        {
+          "property_address": "Harrell Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Pebble Creek Investments Llc"
+        },
+        {
+          "property_address": "Camilla Lake Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Curtis Stifflemire, Julie Stifflemire"
+        },
+        {
+          "property_address": "Ridge Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Douglas Glen Sanford"
+        },
+        {
+          "property_address": "Fm 945 N",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Cargile Timber Properties"
+        },
+        {
+          "property_address": "Smith St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Linda Roach Rodriguez"
+        },
+        {
+          "property_address": "Franklyn Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Fidelity Enterprises"
+        },
+        {
+          "property_address": "515 Patrick Lndg",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Stephen A Maida"
+        },
+        {
+          "property_address": "393 Saddle Surrey Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "John T Rayburn"
+        },
+        {
+          "property_address": "Lakeview Dr Lp",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Relentless Acquisitions Llc"
+        },
+        {
+          "property_address": "5410 State Highway 150 W",
+          "city": "New Waverly",
+          "state": "TX",
+          "zip_code": "77358",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Mark A Kreller, Janet M Kreller"
+        },
+        {
+          "property_address": "Holt St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Jose Arroyo"
+        },
+        {
+          "property_address": "Holt St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Camilla Investments Llc"
+        },
+        {
+          "property_address": "Pine Cir",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "James W Blackmon"
+        },
+        {
+          "property_address": "15 Harrell Cemetery Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Adam Timothy Rutgers, Rose Jenkins"
+        },
+        {
+          "property_address": "53 Laloma Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Robert Hopkins, Sylvia Hopkins"
+        },
+        {
+          "property_address": "Riverview Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Fritz Faulkner"
+        },
+        {
+          "property_address": "69 Harbour Row Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "George E Tipton, Karen L Tipton"
+        },
+        {
+          "property_address": "Valley Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Floyd B Franklin, Laquitta Franklin"
+        },
+        {
+          "property_address": "Off Harvey Bryant Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Linda E Harvey Cotton"
+        },
+        {
+          "property_address": "Black Walnut Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Estala Emmanuel"
+        },
+        {
+          "property_address": "190 Harbour Row Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Bruce Shields, Judy Shields"
+        },
+        {
+          "property_address": "511 Mount Zion Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Trung Duong T Nguyen"
+        },
+        {
+          "property_address": "441 N Royale Greens Dr",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Kathy L Schoettlin, Thomas S Schoettlin"
+        },
+        {
+          "property_address": "1601 Fm 945 Rd N",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "William Thomas Suttle"
+        },
+        {
+          "property_address": "Fm 3278",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "John R Mcmurrey"
+        },
+        {
+          "property_address": "340 Hughes Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Agricultural Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Neal Hughes"
+        },
+        {
+          "property_address": "2664 Fm 1514 Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "James Winslow Chick, Carolyn Chick"
+        },
+        {
+          "property_address": "Coldspring",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Michael W Patrick, Michael David"
+        },
+        {
+          "property_address": "1600 Fm 3128 Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Alexandra Elliott"
+        },
+        {
+          "property_address": "315 V Allen Ln",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Virgie Allen"
+        },
+        {
+          "property_address": "Smith St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Lebert Anthony"
+        },
+        {
+          "property_address": "731 Richard St",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Residential Vacant Land",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Jesus Moreno"
+        },
+        {
+          "property_address": "4651 State Highway 156",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Ruby Joyce Winters"
+        },
+        {
+          "property_address": "391 Saddle Surrey Rd",
+          "city": "Coldspring",
+          "state": "TX",
+          "zip_code": "77331",
+          "land_use": "Farm",
+          "square_feet": "",
+          "year_built": "",
+          "owner_entity": "Trevor Monjaras"
+        }
+      ]
+    },
+    "timestamp": 1778536983342,
+    "requestId": "zu9ip6jkjl8"
+  },
+  "e770ee0d05e2f84e86616caf4da5c7687cc297412a01ff9b2f6fde85fa7e445e": {
+    "data": {
+      "progress": "Extracted 100% of the commercial property listings visible on the results page, including all required fields for each property.",
+      "completed": true
+    },
+    "timestamp": 1778536988340,
+    "requestId": "zu9ip6jkjl8"
+  },
+  "ee70b45784067d23eca8a2e5ee886935ca8663415bca458cf3370f1df1173b59": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-10266",
+          "description": "The heading for the property '15220 Hwy 150 W, Coldspring, TX 77331' which is clickable to open the property detail.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778536998457,
+    "requestId": "h6c4pis31xi"
+  },
+  "5cf76b7707e997129392a59ab4d09c2bf5d16dc98fc93518bbffdd79af8da7ca": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-13609",
+          "description": "The 'Owner' tab in the tab row that allows users to view owner details of the property.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537012681,
+    "requestId": "ddp3snrcyop"
+  },
+  "97cd96ecf5ffb126e5fac96cef881972557cfd152eaa063774e8abdc6abfc9df": {
+    "data": {
+      "owner_entity": "Coldspring Paradise Companies, LLC",
+      "owner_names": [],
+      "company_website": "",
+      "last_acquisition_date": "Oct 2014",
+      "primary_contact_name": "",
+      "primary_contact_title": "",
+      "phones": [],
+      "emails": [],
+      "view_all_contacts_count": 2
+    },
+    "timestamp": 1778537031269,
+    "requestId": "tu1oi2w9bsr"
+  },
+  "39cd705dc17c46186b431ca95c7018cd97cd801f63e32893a565cf95b2f350a8": {
+    "data": {
+      "progress": "Extraction task has been satisfied with the provided details from the Owner tab.",
+      "completed": true
+    },
+    "timestamp": 1778537032696,
+    "requestId": "tu1oi2w9bsr"
+  },
+  "dd092ec47582dec488ec3bbe04057f8da8a930676bf64664839f37ac57129a43": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-13662",
+          "description": "View Contacts (2) button to open the full contacts list for this owner",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537037335,
+    "requestId": "17v2m0ljazp"
+  },
+  "32dc536451dce1fb907f0f9b09d9e6788b740328f50b59bc54c1773ce95dbcae": {
+    "data": {
+      "contacts": [
+        {
+          "name": "Paul L Shelton",
+          "relationship": "Principal",
+          "title": "Member"
+        },
+        {
+          "name": "Missi A Thomas",
+          "relationship": "Principal",
+          "title": "Principal"
+        }
+      ]
+    },
+    "timestamp": 1778537050125,
+    "requestId": "lalgqntk5a"
+  },
+  "73aa067c38ed0f14e6af814b1c50eda295138f9c46eff579a033387a0657ddcf": {
+    "data": {
+      "progress": "Extracted 2 contacts: Paul L Shelton and Missi A Thomas with their respective relationships and titles.",
+      "completed": true
+    },
+    "timestamp": 1778537051627,
+    "requestId": "lalgqntk5a"
+  },
+  "91646edeea504964ac413c4b1a16bb048a1de059efcf1a7817f18c97a4b58b26": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-14378",
+          "description": "The expand arrow '>' chevron button on the LEFT side of the row for 'Paul L Shelton' to expand the contact details.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537055381,
+    "requestId": "w113wuqivfa"
+  },
+  "ebeffb52bf2ae4269aeb03825a20e47d4c8a485e4bcbbb16768eb75bbcc1b715": {
+    "data": {
+      "phones": [
+        "713-470-9507",
+        "936-365-3240",
+        "512-436-9852",
+        "713-628-2402",
+        "915-672-9202"
+      ],
+      "emails": [
+        "pshelton@adelphia.net",
+        "plshel@yahoo.com",
+        "txrufneck146@gmail.com",
+        "paulshelton8@hotmail.com",
+        "pshelton1@yahoo.com"
+      ]
+    },
+    "timestamp": 1778537066739,
+    "requestId": "80l1u6ehfva"
+  },
+  "021cb5bfe36327434208bc0f074ccb9325f1bbbcef85ad9579f06b10d45fc48d": {
+    "data": {
+      "progress": "All requested phone numbers and email addresses for Paul L Shelton have been extracted successfully.",
+      "completed": true
+    },
+    "timestamp": 1778537068198,
+    "requestId": "80l1u6ehfva"
+  },
+  "035c8f3fcde20dd95501d7f01ab2604be9f2b0342930dbcdadb4768ab519fd58": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-14472",
+          "description": "X button to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537071855,
+    "requestId": "w9rmdj0lj2g"
+  },
+  "41ca7dbd1fe21f3ec97ecfde5a668d8a0760abc97ecf694cd85cb86df833f719": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-14418",
+          "description": "The expand arrow '>' chevron button on the LEFT side of the row for 'Missi A Thomas' to expand the contact details.",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537086635,
+    "requestId": "r06klplthk"
+  },
+  "bec122e05f99a53f240e2c98457ed60e32d1a22ef1aabcf2a1d1b9d17df084cc": {
+    "data": {
+      "phones": [
+        "1-253-468-6467",
+        "337-981-2286",
+        "281-337-3778"
+      ],
+      "emails": [
+        "missithomas@hotmail.com",
+        "melissa.thomas3@jefferson.kyschools.us"
+      ]
+    },
+    "timestamp": 1778537097892,
+    "requestId": "7e5bmqgpkyh"
+  },
+  "3c3d443bfc2c18b6763304e5ca661e9a231b61524edd86a6b4ce5b9f1a43f777": {
+    "data": {
+      "progress": "Extraction of phone numbers and email addresses for 'Missi A Thomas' is complete with all required data provided.",
+      "completed": true
+    },
+    "timestamp": 1778537098832,
+    "requestId": "7e5bmqgpkyh"
+  },
+  "7c31a7e26781ff2931b1cbc6caa7e5159961192e0d821c61251ce03f8070bdcd": {
+    "data": {
+      "elements": [
+        {
+          "elementId": "0-14773",
+          "description": "Close button (X) to close the side panel or contact detail drawer",
+          "method": "click",
+          "arguments": []
+        }
+      ]
+    },
+    "timestamp": 1778537102429,
+    "requestId": "9wuscphhgvq"
+  }
+}

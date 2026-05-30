@@ -1,0 +1,33 @@
+{
+  "runId": "2c3950ba-2207-4044-956a-7336bcce8cf3",
+  "createdAt": "2026-05-11T21:44:41.725Z",
+  "updatedAt": "2026-05-11T21:47:00.357Z",
+  "status": "running",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-11T21:46:22.082Z",
+      "elapsedMs": 95163
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-05-11T21:47:00.357Z",
+      "elapsedMs": 38275
+    },
+    "extract": {
+      "status": "running",
+      "updatedAt": "2026-05-11T21:47:00.357Z"
+    }
+  },
+  "metrics": {
+    "extractedRecords": 4,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": []
+}

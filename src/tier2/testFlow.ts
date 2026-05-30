@@ -16,7 +16,7 @@
  *   TIER2_CAMPAIGN_CONFIG_PATH Local path to Campaign_Config.json
  *
  * Optional:
- *   CLAUDE_MODEL              Override Claude model (default: claude-haiku-4-5)
+ *   CLAUDE_MODEL              Override Claude model (default: claude-haiku-4-5-20251001)
  *
  * Acceptance criteria:
  *   ✓ Script runs to completion without crashing (exit 0)
@@ -88,7 +88,7 @@ async function main() {
 
   const claudeOptions: ClaudeCallOptions = {
     apiKey,
-    model: process.env["CLAUDE_MODEL"] ?? "claude-haiku-4-5",
+    model: process.env["CLAUDE_MODEL"] ?? "claude-haiku-4-5-20251001",
   };
 
   // ── Load JSON files ────────────────────────────────────────────────────────

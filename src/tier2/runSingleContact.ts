@@ -26,6 +26,7 @@ import type { SignatureBlurbType } from "./types/index.js";
 import { nextCtaNumber } from "./types/index.js";
 import { evaluateCta } from "./promptBuilder/index.js";
 import { buildPrompt, preparePromptInput } from "./promptBuilder/index.js";
+import type { CtaConditionData } from "./promptBuilder/index.js";
 import { validateEmail } from "./validator/validateEmail.js";
 import { buildRetryPrompt } from "./validator/buildRetryPrompt.js";
 import { callClaude } from "./claude/callClaude.js";
@@ -73,7 +74,8 @@ export type SingleContactOutcome = SingleContactResult | SingleContactSkipped;
  */
 function resolveEligibleCta(
   startCtaNumber: number,
-  playbook: CtaPlaybook
+  playbook: CtaPlaybook,
+  conditionData: CtaConditionData = {}
 ): CtaEntry | null {
   let ctaNum = startCtaNumber as keyof typeof playbook.ctas;
   let hops = 0;
@@ -82,7 +84,7 @@ function resolveEligibleCta(
     const cta = playbook.ctas[ctaNum];
     if (!cta) break;
 
-    const evaluation = evaluateCta(cta);
+    const evaluation = evaluateCta(cta, conditionData);
     if (evaluation.eligible) return cta;
 
     // Advance to the suggested next number
@@ -111,11 +113,12 @@ export async function runSingleContact(
   profile: ClientVoiceProfile,
   campaign: CampaignConfig,
   claudeOptions: ClaudeCallOptions,
+  conditionData: CtaConditionData = {},
   logger: { info: (msg: string, meta?: object) => void; warn: (msg: string, meta?: object) => void } = console as never
 ): Promise<SingleContactOutcome> {
   // ── 1. Resolve eligible CTA ───────────────────────────────────────────────
   const startCtaNumber = row.next_cta_number ?? 1;
-  const resolvedCta = resolveEligibleCta(startCtaNumber, playbook);
+  const resolvedCta = resolveEligibleCta(startCtaNumber, playbook, conditionData);
 
   if (!resolvedCta) {
     const reason = `All CTAs skipped starting from #${startCtaNumber} — max hops (${MAX_CTA_HOPS}) reached.`;
@@ -157,7 +160,7 @@ export async function runSingleContact(
     attemptCount = attempt;
 
     logger.info(`[runSingleContact] Calling Claude (attempt ${attempt}/${MAX_RETRIES})`, {
-      model: claudeOptions.model ?? "claude-haiku-4-5",
+      model: claudeOptions.model ?? "claude-haiku-4-5-20251001",
     });
 
     email = await callClaude(system_prompt, currentUserPrompt, claudeOptions);

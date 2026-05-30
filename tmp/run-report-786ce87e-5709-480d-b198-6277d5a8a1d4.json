@@ -1,0 +1,40 @@
+{
+  "runId": "786ce87e-5709-480d-b198-6277d5a8a1d4",
+  "status": "failed",
+  "zipCode": "93003",
+  "maxPages": 1,
+  "maxResults": 3,
+  "elapsedSeconds": 180.16,
+  "output": {
+    "spreadsheetId": null,
+    "tabName": null
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-786ce87e-5709-480d-b198-6277d5a8a1d4.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "failed",
+      "updatedAt": "2026-04-28T20:05:20.718Z",
+      "elapsedMs": 173457,
+      "message": "[login] Login failed — unexpected URL: https://app.reonomy.com/!/account/password"
+    }
+  },
+  "errors": [
+    "[login] [login] Login failed — unexpected URL: https://app.reonomy.com/!/account/password"
+  ],
+  "errorMessage": "[login] Login failed — unexpected URL: https://app.reonomy.com/!/account/password",
+  "createdAt": "2026-04-28T20:05:20.720Z"
+}

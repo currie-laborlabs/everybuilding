@@ -163,7 +163,7 @@ async function testApollo() {
 
   // Step 2: Test pipeline endpoint — shows whether plan allows people search
   try {
-    const res = await fetch(`${baseUrl}/mixed_people/search`, {
+    const res = await fetch(`${baseUrl}/mixed_people/api_search`, {
       method: "POST",
       headers: { "content-type": "application/json", "x-api-key": apiKey },
       body: JSON.stringify({ q_organization_name: "acme", page: 1, per_page: 1 }),
@@ -171,21 +171,20 @@ async function testApollo() {
 
     if (res.status === 403) {
       ok(
-        "/mixed_people/search access",
-        "HTTP 403 — UPGRADE NEEDED. People Search requires Basic plan ($49/mo). " +
-        "Pipeline will run but Apollo contacts will be empty. Use Hunter contacts only."
+        "/mixed_people/api_search access",
+        "HTTP 403 — plan upgrade required for people search."
       );
     } else if (res.status === 401) {
-      fail("/mixed_people/search", "HTTP 401 — unexpected after health passed");
+      fail("/mixed_people/api_search", "HTTP 401 — unexpected after health passed");
     } else if (res.ok) {
       const data = (await res.json()) as { people?: unknown[] };
-      ok("/mixed_people/search", `Full access — ${data.people?.length ?? 0} result(s) returned`);
+      ok("/mixed_people/api_search", `Full access — ${data.people?.length ?? 0} result(s) returned`);
     } else {
       const text = await res.text().catch(() => "");
-      fail("/mixed_people/search", `HTTP ${res.status}: ${text.slice(0, 100)}`);
+      fail("/mixed_people/api_search", `HTTP ${res.status}: ${text.slice(0, 100)}`);
     }
   } catch (e) {
-    fail("/mixed_people/search", e instanceof Error ? e.message : String(e));
+    fail("/mixed_people/api_search", e instanceof Error ? e.message : String(e));
   }
 }
 

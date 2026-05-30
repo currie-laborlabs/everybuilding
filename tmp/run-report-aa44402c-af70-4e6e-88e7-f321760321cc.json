@@ -1,0 +1,45 @@
+{
+  "runId": "aa44402c-af70-4e6e-88e7-f321760321cc",
+  "status": "failed",
+  "zipCode": "7733",
+  "maxPages": 999,
+  "maxResults": 0,
+  "elapsedSeconds": 114.622,
+  "output": {
+    "spreadsheetId": null,
+    "tabName": null
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-aa44402c-af70-4e6e-88e7-f321760321cc.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-11T20:49:41.765Z",
+      "elapsedMs": 60938
+    },
+    "search": {
+      "status": "failed",
+      "updatedAt": "2026-05-11T20:50:29.803Z",
+      "elapsedMs": 48036,
+      "message": "proxy.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://app.reonomy.com/search\", waiting until \"domcontentloaded\"\u001b[22m\n"
+    }
+  },
+  "errors": [
+    "[search] proxy.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://app.reonomy.com/search\", waiting until \"domcontentloaded\"\u001b[22m\n"
+  ],
+  "errorMessage": "proxy.goto: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - navigating to \"https://app.reonomy.com/search\", waiting until \"domcontentloaded\"\u001b[22m\n",
+  "createdAt": "2026-05-11T20:50:29.804Z"
+}

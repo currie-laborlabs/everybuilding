@@ -1,186 +1,180 @@
 {
-  "client_id": "torres-commercial-roofing",
+  "client_id": "garden-state-commercial-roofing",
   "version": "1.0.0",
-  "updated_at": "2026-04-24",
-
+  "updated_at": "2026-05-21",
   "company_basics": {
-    "company_name": "Torres Commercial Roofing",
+    "company_name": "Garden State Commercial Roofing",
     "primary_trade": "commercial roofing",
-    "years_in_business": 18,
-    "service_area": "Raleigh-Durham metro and surrounding counties, 60-mile radius",
-    "team_size": "32 field employees",
+    "years_in_business": 16,
+    "service_area": "Northern and Central New Jersey, including Hudson, Bergen, Essex, Union, Middlesex, and Morris counties",
+    "team_size": "24 field employees",
     "licenses_and_certs": [
-      "GAF Master Elite Certified Contractor",
-      "NC General Contractor License #65821",
-      "OSHA 30-Hour certified crews",
-      "Duro-Last Preferred Contractor"
+      "New Jersey Home Improvement Contractor Registration #13VH00000000",
+      "OSHA 30-Hour certified supervisors",
+      "GAF commercial roofing systems trained crews",
+      "Certified low-slope roof inspection team"
     ]
   },
-
   "primary_usp": {
-    "headline": "We reroofed over 400K sqft of commercial space in the Triangle last year without a single emergency callback.",
-    "supporting_detail": "The company's core differentiator is execution reliability — projects finish on time, crews are pre-vetted, and every job ships with a documented punch list. Owners and facilities teams cite this as the reason they keep calling back."
+    "headline": "We help New Jersey commercial owners catch roof problems early, document the condition clearly, and plan repairs before they become tenant emergencies.",
+    "supporting_detail": "The company is positioned around practical, documented assessments for occupied commercial buildings. Owners get photos, plain-English findings, and a prioritized repair or replacement plan."
   },
-
   "additional_usps": [
     {
-      "headline": "GAF Master Elite — top 2% of roofing contractors nationally",
-      "supporting_detail": "GAF Master Elite status requires a rigorous vetting process and allows the company to offer the GAF Golden Pledge warranty — the strongest manufacturer-backed commercial roof warranty available."
+      "headline": "Occupied-building work without tenant disruption",
+      "supporting_detail": "Crews stage work around tenant access, deliveries, and operating hours so property managers are not fielding avoidable complaints."
     },
     {
-      "headline": "Drone-documented inspections with written reports delivered within 48 hours",
-      "supporting_detail": "Every assessment includes drone footage and a written condition report. Owners get a real picture of their roof, not a verbal estimate over the phone."
+      "headline": "Photo-documented inspections and written recommendations",
+      "supporting_detail": "Every assessment includes roof photos, issue notes, priority levels, and a clear next-step recommendation instead of a vague verbal estimate."
     },
     {
-      "headline": "Zero disruption to tenants or operations during reroofing",
-      "supporting_detail": "Commercial jobs are staged to avoid disrupting tenant operations. The company has reroofed active distribution centers, occupied office buildings, and live retail without a single documented tenant complaint."
+      "headline": "Fast leak response for portfolio owners",
+      "supporting_detail": "The team handles urgent leak calls while also identifying the deferred maintenance patterns that caused them."
     }
   ],
-
   "signature_projects": [
     {
-      "building_type": "distribution warehouse",
-      "square_feet": 185000,
-      "location": "Research Triangle Park, NC",
-      "dollar_amount": "$420K",
-      "outcome_summary": "Full TPO reroof completed 3 days early, zero tenant disruption, no callbacks in 18 months"
+      "building_type": "mixed-use commercial building",
+      "square_feet": 38000,
+      "location": "Jersey City, NJ",
+      "dollar_amount": "$86K",
+      "outcome_summary": "Targeted low-slope roof restoration completed over two weekends with no tenant access disruption"
     },
     {
-      "building_type": "multi-tenant retail strip",
-      "square_feet": 42000,
-      "location": "Cary, NC",
-      "dollar_amount": "$95K",
-      "outcome_summary": "Emergency tear-off and reroof after hail damage; building reopened in 11 days, full insurance coordination handled by Torres"
+      "building_type": "industrial warehouse",
+      "square_feet": 92000,
+      "location": "Kearny, NJ",
+      "dollar_amount": "$240K",
+      "outcome_summary": "Phased TPO replacement with active loading docks kept open throughout the project"
     },
     {
-      "building_type": "Class B office building",
-      "square_feet": 78000,
-      "location": "Durham, NC",
-      "dollar_amount": "$210K",
-      "outcome_summary": "Phased reroof over 90 days to keep tenants operational; building owner extended a second property contract before job was finished"
+      "building_type": "retail strip center",
+      "square_feet": 51000,
+      "location": "Union, NJ",
+      "dollar_amount": "$118K",
+      "outcome_summary": "Leak remediation and drainage corrections reduced repeat service calls across six tenant spaces"
     }
   ],
-
   "brand_voice": {
-    "tone": "direct, no-nonsense, blue-collar professional — confident but not arrogant, honest but not blunt to the point of being off-putting",
+    "tone": "direct, practical, contractor-to-owner; confident without hype, specific without sounding automated",
     "phrases_to_use": [
-      "ground-level read",
-      "straight picture",
-      "no callbacks",
-      "we've done this",
-      "when it matters",
+      "straight read",
+      "current roof condition",
       "before it becomes urgent",
-      "real answer"
+      "photo-documented",
+      "tenant disruption",
+      "planned repair",
+      "real condition report"
     ],
     "phrases_to_avoid": [
       "world-class",
-      "second to none",
-      "industry-leading",
       "best-in-class",
+      "industry-leading",
+      "second to none",
       "passionate about roofing",
       "we take pride in",
       "I hope this email finds you well",
-      "just reaching out",
       "touch base",
       "circle back",
       "synergy",
       "solutions"
     ]
   },
-
   "customer_praise_themes": [
     {
-      "theme": "shows up when they say they will — no chasing",
+      "theme": "clear documentation before asking for a decision",
       "frequency": "high",
-      "example_quote": "Every other contractor we called was late or a no-show. Torres showed up at 7am on day one and every day after."
+      "example_quote": "They showed us photos, priorities, and what could wait. It was easy to explain the decision internally."
     },
     {
-      "theme": "no surprise charges at the end",
-      "frequency": "high",
-      "example_quote": "The quote we got was the price we paid. First time that's happened with a roofing contractor in 15 years."
-    },
-    {
-      "theme": "explains things clearly without overselling",
+      "theme": "keeps tenants and managers informed",
       "frequency": "medium",
-      "example_quote": "They told us what actually needed to be done and what could wait. Didn't try to upsell us on a full replacement when repairs were the right call."
+      "example_quote": "The work was planned around our tenants and we did not get surprise complaints."
+    },
+    {
+      "theme": "responsive when leaks become urgent",
+      "frequency": "medium",
+      "example_quote": "They got someone out quickly, stopped the active leak, and gave us a plan for the bigger roof issue."
     }
   ],
-
   "market_positioning": {
-    "desired_reputation": "the commercial roofing company that large landlords and property managers call first because they know the job will get done right without babysitting",
-    "price_positioning": "mid-market",
+    "desired_reputation": "the practical New Jersey commercial roofing team owners call when they need a clear roof condition read and a repair plan they can trust",
+    "price_positioning": "mid-market, value based on documentation and reliability",
     "competitors_to_avoid_mentioning": [
-      "Peak Roofing Contractors",
-      "Carolina Roofing Inc",
-      "Triangle Roof Masters"
+      "Nations Roof",
+      "Tecta America",
+      "Northeast Roof Maintenance"
     ]
   },
-
   "targeting_preferences": {
-    "target_zip_codes": [],
+    "target_zip_codes": [
+      "07030",
+      "07086",
+      "07302",
+      "07306",
+      "07087",
+      "07093"
+    ],
     "excluded_zip_codes": [],
     "target_building_types": [
+      "office",
+      "retail",
+      "mixed use",
       "warehouse",
       "industrial",
-      "distribution",
-      "office",
-      "retail strip",
-      "flex industrial"
+      "medical",
+      "commercial condo"
     ],
     "excluded_building_types": [
       "single family residential",
-      "multifamily residential",
-      "church"
+      "small multifamily",
+      "church",
+      "school"
     ],
     "min_project_size_sqft": 10000
   },
-
   "assets_available": {
-    "website_url": "https://torrescommercialroofing.com",
-    "google_reviews_url": "https://g.page/torres-commercial-roofing",
+    "website_url": "https://gardenstatecommercialroofing.example",
+    "google_reviews_url": null,
     "youtube_channel_url": null,
-    "case_study_urls": [
-      "https://torrescommercialroofing.com/case-studies/rtp-warehouse",
-      "https://torrescommercialroofing.com/case-studies/cary-retail"
-    ],
+    "case_study_urls": [],
     "has_drone_footage": true,
     "has_video_testimonials": false
   },
-
   "sender_identity": {
-    "sender_full_name": "Michael Torres",
-    "sender_title": "Project Estimator, Torres Commercial Roofing",
-    "sender_sign_off_name": "Mike",
-    "sender_email": "mike@outreach.torrescommercialroofing.com"
+    "sender_full_name": "Daniel Reyes",
+    "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+    "sender_sign_off_name": "Daniel",
+    "sender_email": "daniel@outreach.gardenstatecommercialroofing.com"
   },
-
   "signature_line_data": {
-    "years_in_business": 18,
-    "service_area": "Raleigh-Durham metro, 60-mile radius",
+    "years_in_business": 16,
+    "service_area": "Northern and Central New Jersey",
     "core_specialties": [
-      "TPO and EPDM flat roofing",
-      "commercial reroof and tear-off",
-      "post-storm assessment and insurance coordination",
-      "occupied-building phased reroofing"
+      "low-slope commercial roof repair",
+      "TPO and EPDM roof systems",
+      "leak investigation and remediation",
+      "occupied-building roof planning"
     ],
     "certifications_and_awards": [
-      "GAF Master Elite Certified",
-      "Duro-Last Preferred Contractor",
-      "NC General Contractor Licensed"
+      "OSHA 30-Hour certified supervisors",
+      "GAF commercial systems trained crews",
+      "New Jersey registered contractor"
     ],
     "signature_projects_summary": [
-      "400K+ sqft reroofed in the Triangle in 2025",
-      "185K sqft distribution center — zero disruption, finished early",
-      "78K sqft office reroof phased over 90 days with tenants in-place"
+      "92K sqft warehouse roof replacement in Kearny with loading docks active",
+      "38K sqft Jersey City mixed-use roof restoration completed over two weekends",
+      "51K sqft retail strip leak remediation across six tenant spaces"
     ],
     "top_review_themes": [
-      "shows up when they say they will",
-      "no surprise charges",
-      "honest assessment, no upsell"
+      "clear photo documentation",
+      "tenant-aware scheduling",
+      "responsive leak support"
     ],
     "volume_scale_claims": [
-      "50+ commercial roofs per year in the Triangle",
-      "18 years serving Raleigh-Durham commercial property owners"
+      "16 years serving New Jersey commercial property owners",
+      "24-person field team for inspections, leak response, and planned roof work"
     ]
   }
 }

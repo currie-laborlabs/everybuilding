@@ -13,7 +13,7 @@ import type { GeneratedEmail } from "../types/index.js";
 
 export interface ClaudeCallOptions {
   apiKey: string;
-  model?: string;        // default: "claude-haiku-4-5"
+  model?: string;        // default: "claude-haiku-4-5-20251001"
   maxTokens?: number;    // default: 1024
   temperature?: number;  // default: 0.7
 }
@@ -77,7 +77,7 @@ export async function callClaude(
   userPrompt: string,
   options: ClaudeCallOptions
 ): Promise<GeneratedEmail> {
-  const model = options.model ?? "claude-haiku-4-5";
+  const model = options.model ?? "claude-haiku-4-5-20251001";
   const maxTokens = options.maxTokens ?? 1024;
   const temperature = options.temperature ?? 0.7;
 
@@ -89,15 +89,29 @@ export async function callClaude(
     messages: [{ role: "user", content: userPrompt }],
   };
 
-  const response = await fetch(ANTHROPIC_API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "x-api-key": options.apiKey,
-      "anthropic-version": ANTHROPIC_VERSION,
-    },
-    body: JSON.stringify(body),
-  });
+  let response: Response;
+  try {
+    response = await fetch(ANTHROPIC_API_URL, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": options.apiKey,
+        "anthropic-version": ANTHROPIC_VERSION,
+      },
+      body: JSON.stringify(body),
+    });
+  } catch (err) {
+    const cause = err instanceof Error ? err.message : String(err);
+    const nested = err instanceof Error && "cause" in err
+      ? (err as Error & { cause?: unknown }).cause
+      : undefined;
+    const nestedMessage = nested instanceof Error
+      ? `; cause=${nested.message}`
+      : nested
+        ? `; cause=${String(nested)}`
+        : "";
+    throw new Error(`Anthropic API request failed before response: ${cause}${nestedMessage}`);
+  }
 
   if (!response.ok) {
     const errorText = await response.text();

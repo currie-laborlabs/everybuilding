@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-05-22T14:47:08.893Z",
+  "records": [
+    {
+      "status": "drafted",
+      "contact_email": "ralph@drugfreenj.org",
+      "contact_name": "Ralph A Larossa",
+      "property_id": "81543bbfcce0bbac",
+      "property_address": "1101 Madison St",
+      "cta_number": 3,
+      "cta_name": "free_assessment",
+      "signature_blurb_type": "years_in_business",
+      "attempts": 1,
+      "validation_passed": true,
+      "validation_violations": [],
+      "email": {
+        "subject": "No-cost roof assessment — 1101 Madison St",
+        "body": "We're offering complimentary commercial roof assessments in your area this month — drone flyover included, full written report, no obligation.\n\nFor 1101 Madison St, it usually takes under two hours and gives you a clear picture of current roof condition and projected timeline before anything becomes urgent.\n\nAre you open to scheduling one?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 67,
+        "cta_number_used": 3,
+        "cta_name_used": "free_assessment"
+      }
+    }
+  ]
+}

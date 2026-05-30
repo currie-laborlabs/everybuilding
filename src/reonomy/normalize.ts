@@ -81,6 +81,7 @@ export function normalizeRecord(
     reonomy_last_acquisition_date: "",
     reonomy_detail_status: "not_attempted",
     reonomy_detail_notes: "",
+    reonomy_contacts_json: "[]",
     review_status: "pending",
     notes,
   };

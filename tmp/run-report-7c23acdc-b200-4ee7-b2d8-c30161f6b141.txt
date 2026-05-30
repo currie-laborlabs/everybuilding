@@ -1,0 +1,29 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : 7c23acdc-b200-4ee7-b2d8-c30161f6b141
+Status               : failed
+ZIP Code             : 08650
+Max Pages            : 1
+Max Results          : unlimited
+Elapsed Time         : 10.6s
+Spreadsheet ID       : n/a
+Sheet Tab            : n/a
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-7c23acdc-b200-4ee7-b2d8-c30161f6b141.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 0
+Normalized leads     : 0
+ATTOM enriched       : 0
+Contact candidates   : 0
+Verified contacts    : 0
+Rows appended        : 0
+Rows skipped         : 0
+Partial records      : 0
+----------------------------------------------
+Errors:
+[login] Failed to parse server response
+----------------------------------------------
+Fatal Error          : Failed to parse server response
+==============================================

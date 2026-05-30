@@ -47,7 +47,7 @@ Return every property visible on the page, not just the first one.
 /**
  * Extract raw property records from ONE currently-visible results page.
  */
-async function extractResultsPage(
+export async function extractResultsPage(
   stagehand: Stagehand
 ): Promise<RawReonomyRecord[]> {
   const page = stagehand.page;
@@ -73,7 +73,7 @@ async function extractResultsPage(
 /**
  * Try to advance to the next results page. Returns false if there is no next page.
  */
-async function goToNextPage(stagehand: Stagehand): Promise<boolean> {
+export async function goToNextPage(stagehand: Stagehand): Promise<boolean> {
   const page = stagehand.page;
   // TODO: Reonomy's pagination may be a "Next" button, page numbers,
   // infinite scroll, or "Load More". Adjust the action below.

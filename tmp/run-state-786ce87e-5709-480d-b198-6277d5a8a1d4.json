@@ -1,0 +1,27 @@
+{
+  "runId": "786ce87e-5709-480d-b198-6277d5a8a1d4",
+  "createdAt": "2026-04-28T20:02:20.560Z",
+  "updatedAt": "2026-04-28T20:05:20.718Z",
+  "status": "failed",
+  "stageStatus": {
+    "login": {
+      "status": "failed",
+      "updatedAt": "2026-04-28T20:05:20.718Z",
+      "elapsedMs": 173457,
+      "message": "[login] Login failed — unexpected URL: https://app.reonomy.com/!/account/password"
+    }
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": [
+    "[login] [login] Login failed — unexpected URL: https://app.reonomy.com/!/account/password"
+  ]
+}

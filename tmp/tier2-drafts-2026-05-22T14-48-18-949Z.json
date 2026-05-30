@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-22T14:48:18.949Z",
+  "records": [
+    {
+      "status": "drafted",
+      "contact_email": "ralph@drugfreenj.org",
+      "contact_name": "Ralph A Larossa",
+      "property_id": "81543bbfcce0bbac",
+      "property_address": "1101 Madison St",
+      "cta_number": 7,
+      "cta_name": "resource_checklist",
+      "signature_blurb_type": "years_in_business",
+      "attempts": 1,
+      "validation_passed": true,
+      "validation_violations": [
+        {
+          "rule_id": "cta_offer_missing",
+          "description": "CTA #7 (Resource / Checklist) must contain a clear offer or call to action. The email body does not clearly offer anything.",
+          "severity": "soft"
+        }
+      ],
+      "email": {
+        "subject": "Roof condition assessment framework — 1101 Madison St",
+        "body": "We created a framework that helps owners evaluate current roof condition and model the financial impact of deferred maintenance versus planned repair cycles over 10 years.\n\nMost property managers find it clarifies whether a roof is stable or heading toward urgent work. Given 1101 Madison St's profile, it might be useful context for your asset planning.\n\nWant me to send it over?",
+        "signature_line": "16 years serving commercial properties in Northern and Central New Jersey.",
+        "sender_sign_off": "Daniel",
+        "sender_full_name": "Daniel Reyes",
+        "sender_title": "Commercial Roofing Advisor, Garden State Commercial Roofing",
+        "word_count": 72,
+        "cta_number_used": 7,
+        "cta_name_used": "resource_checklist"
+      }
+    }
+  ]
+}

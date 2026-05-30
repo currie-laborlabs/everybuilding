@@ -1,0 +1,29 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : cae43288-26a1-46fa-b34b-c021dad17446
+Status               : failed
+ZIP Code             : 93001
+Max Pages            : 1
+Max Results          : unlimited
+Elapsed Time         : 39.9s
+Spreadsheet ID       : n/a
+Sheet Tab            : n/a
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-cae43288-26a1-46fa-b34b-c021dad17446.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 0
+Normalized leads     : 0
+ATTOM enriched       : 0
+Contact candidates   : 0
+Verified contacts    : 0
+Rows appended        : 0
+Rows skipped         : 0
+Partial records      : 0
+----------------------------------------------
+Errors:
+[search] Failed to parse server response
+----------------------------------------------
+Fatal Error          : Failed to parse server response
+==============================================

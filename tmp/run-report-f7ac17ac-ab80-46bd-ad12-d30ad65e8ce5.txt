@@ -1,0 +1,27 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : f7ac17ac-ab80-46bd-ad12-d30ad65e8ce5
+Status               : completed
+ZIP Code             : 93003
+Max Pages            : 1
+Max Results          : unlimited
+Elapsed Time         : 479.4s
+Spreadsheet ID       : 1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI
+Sheet Tab            : Leads
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-f7ac17ac-ab80-46bd-ad12-d30ad65e8ce5.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 50
+Normalized leads     : 19
+ATTOM enriched       : 19
+Contact candidates   : 26
+Verified contacts    : 26
+Rows appended        : 25
+Rows skipped         : 1
+Partial records      : 2
+----------------------------------------------
+Errors:
+none
+==============================================

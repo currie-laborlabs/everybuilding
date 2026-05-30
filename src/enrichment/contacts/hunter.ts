@@ -39,9 +39,39 @@ export class HunterClient {
   async findContacts(lead: EnrichedPropertyLead): Promise<ContactCandidate[]> {
     if (!this.config.apiKey) return [];
 
+    const name = lead.reonomy_contact_name.trim();
+    const domain = resolveExplicitDomain(lead);
+
     try {
-      // Prefer targeted lookup when a name is known — costs 0 credits on no-match.
-      if (lead.reonomy_contact_name.trim()) {
+      // When both a name and domain are known, run targeted lookup AND
+      // domain-search in parallel — dedup happens downstream in mergeContactCandidates.
+      // This yields up to 6 candidates (1 targeted + 5 domain) per property.
+      if (name && domain) {
+        const [targeted, domainContacts] = await Promise.all([
+          this.limiter.schedule(() =>
+            this.breaker.execute(() =>
+              withRetry(() => this.fetchEmailForPerson(lead), {
+                maxAttempts: this.config.maxAttempts,
+                baseDelayMs: this.config.baseDelayMs,
+                maxDelayMs: this.config.maxDelayMs,
+              })
+            )
+          ),
+          this.limiter.schedule(() =>
+            this.breaker.execute(() =>
+              withRetry(() => this.fetchDomainContacts(lead, domain), {
+                maxAttempts: this.config.maxAttempts,
+                baseDelayMs: this.config.baseDelayMs,
+                maxDelayMs: this.config.maxDelayMs,
+              })
+            )
+          ),
+        ]);
+        return [...targeted, ...domainContacts];
+      }
+
+      // Name only — targeted lookup costs 0 credits on no-match.
+      if (name) {
         return await this.limiter.schedule(() =>
           this.breaker.execute(() =>
             withRetry(() => this.fetchEmailForPerson(lead), {
@@ -53,11 +83,33 @@ export class HunterClient {
         );
       }
 
-      // Anonymous fallback: domain-search, but only when domain is explicitly
-      // known from the page — never use a guessed domain.
-      const domain = resolveExplicitDomain(lead);
-      if (!domain) return [];
+      // Domain only — anonymous domain-search.
+      if (domain) {
+        return await this.limiter.schedule(() =>
+          this.breaker.execute(() =>
+            withRetry(() => this.fetchDomainContacts(lead, domain), {
+              maxAttempts: this.config.maxAttempts,
+              baseDelayMs: this.config.baseDelayMs,
+              maxDelayMs: this.config.maxDelayMs,
+            })
+          )
+        );
+      }
 
+      return [];
+    } catch {
+      return [];
+    }
+  }
+
+  /**
+   * Search for all decision-maker contacts at a given domain.
+   * Used for domain-expansion after a contact email is first discovered.
+   * Delegates to fetchDomainContacts with the full rate-limiter + circuit-breaker stack.
+   */
+  async findContactsByDomain(lead: EnrichedPropertyLead, domain: string): Promise<ContactCandidate[]> {
+    if (!this.config.apiKey || !domain) return [];
+    try {
       return await this.limiter.schedule(() =>
         this.breaker.execute(() =>
           withRetry(() => this.fetchDomainContacts(lead, domain), {
@@ -84,6 +136,10 @@ export class HunterClient {
     url.searchParams.set("api_key", this.config.apiKey ?? "");
     url.searchParams.set("full_name", lead.reonomy_contact_name.trim());
     url.searchParams.set("company", lead.owner_entity.trim());
+    // Supply explicit domain when available — Hunter uses it as the primary
+    // lookup key rather than inferring domain from company name.
+    const domain = resolveExplicitDomain(lead);
+    if (domain) url.searchParams.set("domain", domain);
 
     const response = await fetch(url);
     if (!response.ok) {
@@ -124,7 +180,7 @@ export class HunterClient {
     const url = new URL(`${this.config.baseUrl}/domain-search`);
     url.searchParams.set("api_key", this.config.apiKey ?? "");
     url.searchParams.set("domain", domain);
-    url.searchParams.set("limit", "5");
+    url.searchParams.set("limit", "15");
 
     const response = await fetch(url);
     if (!response.ok) {

@@ -1,0 +1,54 @@
+{
+  "runId": "b59c9041-c941-4245-aca0-32c791c675a2",
+  "createdAt": "2026-05-06T20:18:09.505Z",
+  "updatedAt": "2026-05-06T20:45:50.231Z",
+  "status": "completed",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:19:07.821Z",
+      "elapsedMs": 46427
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:19:34.396Z",
+      "elapsedMs": 26575
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:44:56.710Z",
+      "elapsedMs": 1522313
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:25.867Z",
+      "elapsedMs": 29156
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:39.207Z",
+      "elapsedMs": 13339
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:42.155Z",
+      "elapsedMs": 2948
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:50.231Z",
+      "elapsedMs": 8074
+    }
+  },
+  "metrics": {
+    "extractedRecords": 10,
+    "normalizedRecords": 10,
+    "attomEnrichedRecords": 10,
+    "contactCandidates": 10,
+    "verifiedContacts": 10,
+    "skippedExistingContacts": 0,
+    "appendedRows": 10,
+    "partialRecords": 0
+  },
+  "errors": []
+}

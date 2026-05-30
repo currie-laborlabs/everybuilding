@@ -1,0 +1,64 @@
+{
+  "runId": "301dfa35-b3d2-4344-8242-cac2942fafc2",
+  "createdAt": "2026-04-30T18:04:16.579Z",
+  "updatedAt": "2026-04-30T18:06:17.217Z",
+  "status": "completed",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:05:06.832Z",
+      "elapsedMs": 43262
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:05:33.145Z",
+      "elapsedMs": 26313
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:05:37.442Z",
+      "elapsedMs": 4296
+    },
+    "normalize": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:05:37.444Z",
+      "elapsedMs": 1
+    },
+    "reonomy_detail": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:06:04.931Z",
+      "elapsedMs": 27486
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:06:09.820Z",
+      "elapsedMs": 4888
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:06:14.541Z",
+      "elapsedMs": 4720
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:06:14.543Z",
+      "elapsedMs": 1
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-04-30T18:06:17.217Z",
+      "elapsedMs": 2673
+    }
+  },
+  "metrics": {
+    "extractedRecords": 1,
+    "normalizedRecords": 1,
+    "attomEnrichedRecords": 1,
+    "contactCandidates": 1,
+    "verifiedContacts": 1,
+    "skippedExistingContacts": 0,
+    "appendedRows": 1,
+    "partialRecords": 1
+  },
+  "errors": []
+}

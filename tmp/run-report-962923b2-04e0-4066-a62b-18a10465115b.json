@@ -1,0 +1,40 @@
+{
+  "runId": "962923b2-04e0-4066-a62b-18a10465115b",
+  "status": "failed",
+  "zipCode": "93003",
+  "maxPages": 1,
+  "maxResults": 0,
+  "elapsedSeconds": 26.226,
+  "output": {
+    "spreadsheetId": null,
+    "tabName": null
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-962923b2-04e0-4066-a62b-18a10465115b.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "failed",
+      "updatedAt": "2026-05-01T14:28:43.739Z",
+      "elapsedMs": 20031,
+      "message": "Failed to parse server response"
+    }
+  },
+  "errors": [
+    "[login] Failed to parse server response"
+  ],
+  "errorMessage": "Failed to parse server response",
+  "createdAt": "2026-05-01T14:28:43.740Z"
+}

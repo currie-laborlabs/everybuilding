@@ -16,6 +16,7 @@
 import { google } from "googleapis";
 import type { Tier2ContactRow } from "../types/index.js";
 import { TIER2_DEFAULTS } from "../types/index.js";
+import type { SignatureBlurbType } from "../types/index.js";
 
 const SHEETS_SCOPE = "https://www.googleapis.com/auth/spreadsheets.readonly";
 
@@ -68,6 +69,11 @@ function castRow(raw: Record<string, string>): Tier2ContactRow {
       if (key === "last_cta_number" || key === "next_cta_number" || key === "total_emails_sent") {
         const n = parseInt(value, 10);
         base[key] = Number.isFinite(n) ? n : TIER2_DEFAULTS[key as keyof typeof TIER2_DEFAULTS];
+      } else if (key === "last_5_signature_blurb_types") {
+        base[key] = value
+          .split(",")
+          .map((part) => part.trim())
+          .filter(Boolean) as SignatureBlurbType[];
       } else {
         base[key] = value;
       }

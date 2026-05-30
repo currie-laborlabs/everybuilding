@@ -1,17 +1,13 @@
 {
-  "client_id": "torres-commercial-roofing",
-  "client_name": "Torres Commercial Roofing",
-
-  "instantly_campaign_id": "REPLACE_WITH_INSTANTLY_CAMPAIGN_ID",
-  "sending_domain": "outreach.torrescommercialroofing.com",
-
+  "client_id": "garden-state-commercial-roofing",
+  "client_name": "Garden State Commercial Roofing",
+  "instantly_campaign_id": "draft-mode-not-connected",
+  "sending_domain": "outreach.gardenstatecommercialroofing.com",
   "cadence_days_default": 60,
   "cadence_days_not_now": 90,
   "cadence_days_not_interested": 180,
-
-  "reports_recipient_email": "mike@torrescommercialroofing.com",
+  "reports_recipient_email": "ops@gardenstatecommercialroofing.com",
   "reports_timezone": "America/New_York",
-
-  "spreadsheet_id": "REPLACE_WITH_GOOGLE_SPREADSHEET_ID",
+  "spreadsheet_id": "1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI",
   "sheet_tab_name": "Leads"
 }

@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-05-21T21:46:31.313Z",
+  "records": [
+    {
+      "status": "validation_failed",
+      "contact_name": "William O Hara",
+      "property_id": "70e9509a28359652",
+      "property_address": "364 14th St",
+      "error": "Cannot read properties of undefined (reading 'toLowerCase')"
+    }
+  ]
+}

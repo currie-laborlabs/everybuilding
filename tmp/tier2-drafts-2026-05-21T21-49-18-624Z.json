@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-05-21T21:49:18.624Z",
+  "records": [
+    {
+      "status": "validation_failed",
+      "contact_email": "ralph@drugfreenj.org",
+      "contact_name": "Ralph A Larossa",
+      "property_id": "81543bbfcce0bbac",
+      "property_address": "1101 Madison St",
+      "error": "Cannot read properties of undefined (reading 'toLocaleString')"
+    }
+  ]
+}

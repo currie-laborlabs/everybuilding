@@ -1,0 +1,32 @@
+{
+  "runId": "1e7df439-17c5-4851-aed7-1f7bc041cc31",
+  "createdAt": "2026-05-05T17:37:29.626Z",
+  "updatedAt": "2026-05-05T17:38:05.639Z",
+  "status": "failed",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T17:38:01.668Z",
+      "elapsedMs": 25128
+    },
+    "search": {
+      "status": "failed",
+      "updatedAt": "2026-05-05T17:38:05.639Z",
+      "elapsedMs": 3970,
+      "message": "Failed to parse server response"
+    }
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": [
+    "[search] Failed to parse server response"
+  ]
+}

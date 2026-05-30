@@ -1,0 +1,67 @@
+{
+  "runId": "b59c9041-c941-4245-aca0-32c791c675a2",
+  "status": "completed",
+  "zipCode": "49090",
+  "maxPages": 1,
+  "maxResults": 0,
+  "elapsedSeconds": 1660.7,
+  "output": {
+    "spreadsheetId": "1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI",
+    "tabName": "Leads"
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-b59c9041-c941-4245-aca0-32c791c675a2.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 10,
+    "normalizedRecords": 10,
+    "attomEnrichedRecords": 10,
+    "contactCandidates": 10,
+    "verifiedContacts": 10,
+    "skippedExistingContacts": 0,
+    "appendedRows": 10,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:19:07.821Z",
+      "elapsedMs": 46427
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:19:34.396Z",
+      "elapsedMs": 26575
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:44:56.710Z",
+      "elapsedMs": 1522313
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:25.867Z",
+      "elapsedMs": 29156
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:39.207Z",
+      "elapsedMs": 13339
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:42.155Z",
+      "elapsedMs": 2948
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-05-06T20:45:50.231Z",
+      "elapsedMs": 8074
+    }
+  },
+  "errors": [],
+  "errorMessage": null,
+  "createdAt": "2026-05-06T20:45:50.240Z"
+}

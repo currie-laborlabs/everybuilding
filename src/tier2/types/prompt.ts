@@ -38,7 +38,18 @@ export type PropertyContext = Pick<
   | "permit_summary"
   | "roof_permit_date"
   | "hvac_permit_date"
+  | "plumbing_permit_date"
+  | "electrical_permit_date"
+  | "restoration_permit_date"
+  | "fire_water_permit_date"
+  | "last_permit_date"
+  | "permit_contractor"
   | "tax_or_distress_notes"
+  | "hazard_notes"
+  | "crime_notes"
+  | "demographics_notes"
+  | "air_quality_notes"
+  | "climate_notes"
 >;
 
 /**

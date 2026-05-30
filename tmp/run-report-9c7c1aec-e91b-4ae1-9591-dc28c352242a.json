@@ -1,0 +1,77 @@
+{
+  "runId": "9c7c1aec-e91b-4ae1-9591-dc28c352242a",
+  "status": "completed",
+  "zipCode": "08608",
+  "maxPages": 1,
+  "maxResults": 0,
+  "elapsedSeconds": 446.7,
+  "output": {
+    "spreadsheetId": "1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI",
+    "tabName": "Leads"
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-9c7c1aec-e91b-4ae1-9591-dc28c352242a.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 50,
+    "normalizedRecords": 27,
+    "attomEnrichedRecords": 27,
+    "contactCandidates": 27,
+    "verifiedContacts": 27,
+    "skippedExistingContacts": 0,
+    "appendedRows": 27,
+    "partialRecords": 1
+  },
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:02:56.334Z",
+      "elapsedMs": 41523
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:03:32.086Z",
+      "elapsedMs": 35752
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:03:56.276Z",
+      "elapsedMs": 24189
+    },
+    "normalize": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:03:56.278Z",
+      "elapsedMs": 1
+    },
+    "reonomy_detail": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:07:44.102Z",
+      "elapsedMs": 227823
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:09:10.211Z",
+      "elapsedMs": 86108
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:09:32.557Z",
+      "elapsedMs": 22345
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:09:32.566Z",
+      "elapsedMs": 8
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-05-05T16:09:35.230Z",
+      "elapsedMs": 2663
+    }
+  },
+  "errors": [],
+  "errorMessage": null,
+  "createdAt": "2026-05-05T16:09:35.232Z"
+}

@@ -1,0 +1,40 @@
+{
+  "runId": "5d4a6384-5d4b-4eb1-b896-4eda22c1f271",
+  "status": "failed",
+  "zipCode": "7733",
+  "maxPages": 999,
+  "maxResults": 0,
+  "elapsedSeconds": 24.49,
+  "output": {
+    "spreadsheetId": null,
+    "tabName": null
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-5d4a6384-5d4b-4eb1-b896-4eda22c1f271.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "failed",
+      "updatedAt": "2026-05-11T14:17:26.916Z",
+      "elapsedMs": 18438,
+      "message": "No LLM API key or LLM Client configured. An LLM API key or a custom LLM Client is required to use act, extract, or observe."
+    }
+  },
+  "errors": [
+    "[login] No LLM API key or LLM Client configured. An LLM API key or a custom LLM Client is required to use act, extract, or observe."
+  ],
+  "errorMessage": "No LLM API key or LLM Client configured. An LLM API key or a custom LLM Client is required to use act, extract, or observe.",
+  "createdAt": "2026-05-11T14:17:26.917Z"
+}

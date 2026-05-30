@@ -5,15 +5,23 @@
   "description": "EveryBuilding MVP — Reonomy commercial property scraper using Stagehand + Browserbase",
   "scripts": {
     "scrape": "tsx src/index.ts",
+    "scrape:batch": "tsx src/batch.ts",
     "scrape:debug": "tsx --inspect src/index.ts",
+    "enrich": "tsx src/enrich.ts",
+    "owner-resolution:test": "tsx src/owner-resolution-test.ts",
     "check-credits": "tsx src/utils/checkCredits.ts",
     "reset": "node -e \"const fs=require('fs');['./tmp/tier1-runtime.db','./tmp/tier1-checkpoint.json'].forEach(f=>{try{fs.rmSync(f);console.log('Deleted',f)}catch{console.log('Not found',f)}})\"",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test-keys": "tsx src/test-keys.ts",
-    "tier2:test": "tsx src/tier2/testFlow.ts"
+    "tier2:test": "tsx src/tier2/testFlow.ts",
+    "tier2:write": "tsx src/tier2/writeEmails.ts",
+    "test-attom-sheet": "tsx tmp/test-attom-sheet.ts",
+    "batchdata:sample": "tsx tmp/run-batchdata-sample.ts"
   },
   "dependencies": {
-    "@browserbasehq/stagehand": "^2.0.0",
+    "@browserbasehq/stagehand": "^2.5.8",
     "dotenv": "^16.4.7",
     "googleapis": "^171.4.0",
     "p-queue": "^9.1.2",
@@ -23,7 +31,8 @@
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsx": "^4.19.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.9"
   },
   "engines": {
     "node": ">=20.0.0"

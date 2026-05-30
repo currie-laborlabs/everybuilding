@@ -349,12 +349,56 @@ function renderPropertySection(
     lines.push(`Most recent HVAC permit: ${property.hvac_permit_date}`);
   }
 
+  if (property.plumbing_permit_date) {
+    lines.push(`Most recent plumbing permit: ${property.plumbing_permit_date}`);
+  }
+
+  if (property.electrical_permit_date) {
+    lines.push(`Most recent electrical permit: ${property.electrical_permit_date}`);
+  }
+
+  if (property.restoration_permit_date) {
+    lines.push(`Most recent restoration/remediation permit: ${property.restoration_permit_date}`);
+  }
+
+  if (property.fire_water_permit_date) {
+    lines.push(`Most recent fire/water damage permit: ${property.fire_water_permit_date}`);
+  }
+
+  if (property.last_permit_date) {
+    lines.push(`Most recent permit (any type): ${property.last_permit_date}`);
+  }
+
+  if (property.permit_contractor) {
+    lines.push(`Contractor on most recent roof/HVAC permit: ${property.permit_contractor}`);
+  }
+
   if (property.last_sale_date) {
     lines.push(`Last recorded sale: ${property.last_sale_date}`);
   }
 
   if (property.tax_or_distress_notes) {
     lines.push(`Distress indicators: ${property.tax_or_distress_notes}`);
+  }
+
+  if (property.hazard_notes) {
+    lines.push(`Natural hazard risk (100 = national avg): ${property.hazard_notes}`);
+  }
+
+  if (property.crime_notes) {
+    lines.push(`Crime indexes (100 = national avg): ${property.crime_notes}`);
+  }
+
+  if (property.demographics_notes) {
+    lines.push(`Neighborhood demographics: ${property.demographics_notes}`);
+  }
+
+  if (property.air_quality_notes) {
+    lines.push(`Air quality: ${property.air_quality_notes}`);
+  }
+
+  if (property.climate_notes) {
+    lines.push(`Climate: ${property.climate_notes}`);
   }
 
   return lines.join("\n");
