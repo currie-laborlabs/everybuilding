@@ -1,0 +1,65 @@
+{
+  "runId": "2f669014-6efb-4899-ba04-fcfb36fe1903",
+  "createdAt": "2026-06-03T20:45:35.033Z",
+  "updatedAt": "2026-06-03T23:46:14.263Z",
+  "status": "completed",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T20:47:11.526Z",
+      "elapsedMs": 91562
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T20:47:33.715Z",
+      "elapsedMs": 22189
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T23:45:45.086Z",
+      "elapsedMs": 10691370
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T23:45:45.088Z",
+      "elapsedMs": 1
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T23:46:10.531Z",
+      "elapsedMs": 25442
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T23:46:10.641Z",
+      "elapsedMs": 109
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-06-03T23:46:14.263Z",
+      "elapsedMs": 3571
+    }
+  },
+  "metrics": {
+    "extractedRecords": 45,
+    "normalizedRecords": 45,
+    "attomEnrichedRecords": 45,
+    "contactCandidates": 342,
+    "verifiedContacts": 342,
+    "rowsWithEmail": 335,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 335,
+    "contactSourceCounts": {
+      "reonomy": 242,
+      "batchdata": 94,
+      "batchdata,reonomy": 3,
+      "<blank>": 3
+    },
+    "skippedExistingContacts": 65,
+    "appendedRows": 277,
+    "partialRecords": 0
+  },
+  "errors": []
+}

@@ -1,0 +1,33 @@
+{
+  "runId": "827156c9-a111-4013-9145-7fde2b4d3cf9",
+  "createdAt": "2026-06-05T20:18:16.463Z",
+  "updatedAt": "2026-06-05T20:18:34.855Z",
+  "status": "failed",
+  "stageStatus": {
+    "login": {
+      "status": "failed",
+      "updatedAt": "2026-06-05T20:18:34.855Z",
+      "elapsedMs": 13257,
+      "message": "No LLM API key or LLM Client configured. An LLM API key or a custom LLM Client is required to use act, extract, or observe."
+    }
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "rowsWithEmail": 0,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 0,
+    "contactSourceCounts": {},
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": [
+    "[login] No LLM API key or LLM Client configured. An LLM API key or a custom LLM Client is required to use act, extract, or observe."
+  ]
+}

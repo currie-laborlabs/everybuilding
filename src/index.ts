@@ -526,9 +526,9 @@ async function main(): Promise<void> {
     enableCaching: true,
     verbose: 1,
     browserbaseSessionCreateParams: {
-      // Allow up to 3 hours per session (in seconds). Browserbase free/starter
+      // Allow up to 6 hours per session (in seconds). Browserbase free/starter
       // plans cap at 1 hour; paid plans support longer. Adjust as needed.
-      timeout: 10800,
+      timeout: 21600,
     },
   });
 

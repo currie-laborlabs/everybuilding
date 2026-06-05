@@ -1,0 +1,29 @@
+{
+  "runId": "248c83b3-cec4-43ba-83bb-3f250bdb6cb7",
+  "createdAt": "2026-06-03T20:08:18.073Z",
+  "updatedAt": "2026-06-03T20:08:23.084Z",
+  "status": "running",
+  "stageStatus": {
+    "login": {
+      "status": "running",
+      "updatedAt": "2026-06-03T20:08:23.084Z"
+    }
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "rowsWithEmail": 0,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 0,
+    "contactSourceCounts": {},
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": []
+}

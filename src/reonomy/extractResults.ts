@@ -1,4 +1,4 @@
-import type { Stagehand } from "@browserbasehq/stagehand";
+import type { Stagehand, StagehandPage } from "@browserbasehq/stagehand";
 import { z } from "zod";
 import type { RawReonomyRecord } from "../types";
 import { sleep } from "../utils";
@@ -45,12 +45,83 @@ Return every property visible on the page, not just the first one.
 `.trim();
 
 /**
+ * Scroll the results list panel to the bottom and back to the top so that
+ * virtualised rows are all rendered before we call page.extract().
+ * Reonomy renders only the cards in the viewport — without this scroll pass
+ * the AI only sees the 4-6 cards currently visible and misses the rest.
+ */
+async function scrollResultsListFully(page: StagehandPage): Promise<void> {
+  try {
+    // Identify the scrollable results panel (left sidebar / card list)
+    const PANEL_SELECTORS = [
+      "[class*='results-list']", "[class*='ResultsList']",
+      "[class*='property-list']", "[class*='PropertyList']",
+      "[class*='search-results']", "[class*='SearchResults']",
+      "[class*='card-list']", "[class*='CardList']",
+      "[class*='left-panel']", "[class*='LeftPanel']",
+      "[class*='sidebar']", "[class*='Sidebar']",
+      "[class*='list-container']", "[class*='ListContainer']",
+    ];
+
+    await page.evaluate(async (selectors: string[]) => {
+      // Find the scrollable results container
+      let panel: HTMLElement | null = null;
+      for (const sel of selectors) {
+        const el = document.querySelector<HTMLElement>(sel);
+        if (el && el.scrollHeight > el.clientHeight + 50) {
+          panel = el;
+          break;
+        }
+      }
+
+      // Fallback: largest scrollable non-body element
+      if (!panel) {
+        const bodyH = document.body.scrollHeight;
+        const candidates = Array.from(document.querySelectorAll<HTMLElement>("*")).filter((el) => {
+          if (el.scrollHeight === bodyH) return false;
+          const s = window.getComputedStyle(el);
+          return (
+            (s.overflow === "auto" || s.overflow === "scroll" ||
+             s.overflowY === "auto" || s.overflowY === "scroll") &&
+            el.scrollHeight > el.clientHeight + 50
+          );
+        });
+        candidates.sort((a, b) => b.scrollHeight - a.scrollHeight);
+        panel = candidates[0] ?? null;
+      }
+
+      if (!panel) return; // Nothing to scroll
+
+      // Scroll to bottom in steps so the browser renders each batch of cards
+      const step = panel.clientHeight;
+      let pos = 0;
+      while (pos < panel.scrollHeight) {
+        pos += step;
+        panel.scrollTo({ top: pos, behavior: "instant" });
+        // Small pause to let the virtual renderer catch up
+        await new Promise<void>((r) => setTimeout(r, 150));
+      }
+
+      // Scroll back to top so the AI sees cards in natural order
+      panel.scrollTo({ top: 0, behavior: "instant" });
+      await new Promise<void>((r) => setTimeout(r, 300));
+    }, PANEL_SELECTORS);
+
+    await sleep(800); // Final settle
+  } catch {
+    // Non-critical — proceed with whatever is visible
+  }
+}
+
+/**
  * Extract raw property records from ONE currently-visible results page.
  */
 export async function extractResultsPage(
   stagehand: Stagehand
 ): Promise<RawReonomyRecord[]> {
   const page = stagehand.page;
+  console.log("[extract] Scrolling results list to load all cards...");
+  await scrollResultsListFully(page);
   console.log("[extract] Extracting property data from current page...");
 
   const extracted = await page.extract({

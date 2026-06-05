@@ -1,0 +1,39 @@
+{
+  "runId": "d21fe181-b2ad-4885-9d88-5d3f29577ef5",
+  "createdAt": "2026-06-04T12:45:55.061Z",
+  "updatedAt": "2026-06-04T12:47:49.859Z",
+  "status": "running",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-06-04T12:47:30.074Z",
+      "elapsedMs": 89917
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-06-04T12:47:49.858Z",
+      "elapsedMs": 19783
+    },
+    "extract": {
+      "status": "running",
+      "updatedAt": "2026-06-04T12:47:49.859Z"
+    }
+  },
+  "metrics": {
+    "extractedRecords": 353,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "rowsWithEmail": 0,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 0,
+    "contactSourceCounts": {},
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": []
+}

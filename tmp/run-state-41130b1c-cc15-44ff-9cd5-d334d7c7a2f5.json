@@ -1,0 +1,43 @@
+{
+  "runId": "41130b1c-cc15-44ff-9cd5-d334d7c7a2f5",
+  "createdAt": "2026-06-05T20:37:46.323Z",
+  "updatedAt": "2026-06-05T20:40:22.194Z",
+  "status": "failed",
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T20:39:29.067Z",
+      "elapsedMs": 97892
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T20:39:57.791Z",
+      "elapsedMs": 28723
+    },
+    "extract": {
+      "status": "failed",
+      "updatedAt": "2026-06-05T20:40:22.194Z",
+      "elapsedMs": 24403,
+      "message": "\nHey! We're sorry you ran into an error. \nStagehand version: 2.5.8 \nIf you need help, please open a Github issue or reach out to us on Slack: https://stagehand.dev/slack\n\nFull error:\nInvalid schema for response_format 'response': In context=('properties', 'properties', 'items'), 'required' is required to be supplied and to be an array including every key in properties. Missing 'property_address'."
+    }
+  },
+  "metrics": {
+    "extractedRecords": 0,
+    "normalizedRecords": 0,
+    "attomEnrichedRecords": 0,
+    "contactCandidates": 0,
+    "verifiedContacts": 0,
+    "rowsWithEmail": 0,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 0,
+    "contactSourceCounts": {},
+    "skippedExistingContacts": 0,
+    "appendedRows": 0,
+    "partialRecords": 0
+  },
+  "errors": [
+    "[extract] \nHey! We're sorry you ran into an error. \nStagehand version: 2.5.8 \nIf you need help, please open a Github issue or reach out to us on Slack: https://stagehand.dev/slack\n\nFull error:\nInvalid schema for response_format 'response': In context=('properties', 'properties', 'items'), 'required' is required to be supplied and to be an array including every key in properties. Missing 'property_address'."
+  ]
+}

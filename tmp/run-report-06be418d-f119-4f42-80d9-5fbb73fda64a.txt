@@ -1,0 +1,33 @@
+==============================================
+  EVERYBUILDING RUN REPORT
+==============================================
+Run ID               : 06be418d-f119-4f42-80d9-5fbb73fda64a
+Status               : completed
+ZIP Code             : 92780
+Max Pages            : 999
+Max Results          : unlimited
+Elapsed Time         : 21660.9s
+Spreadsheet ID       : 1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI
+Sheet Tab            : Diamond_Leads
+Run-state File       : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\run-state-06be418d-f119-4f42-80d9-5fbb73fda64a.json
+Checkpoint File      : C:\Users\Curri\Desktop\PMHOA\everybuilding\scraper\tmp\tier1-checkpoint.json
+Local SQLite         : ./tmp/tier1-runtime.db
+----------------------------------------------
+Raw records extracted: 79
+Normalized leads     : 79
+ATTOM enriched       : 79
+Contact candidates   : 428
+Rows verified        : 428
+Rows with email      : 419
+Valid emails         : 0
+Invalid emails       : 0
+Unknown emails       : 0
+Unverified emails    : 419
+Contact source counts: {"reonomy":265,"batchdata":155,"batchdata,reonomy":5,"<blank>":3}
+Rows appended        : 413
+Rows skipped         : 15
+Partial records      : 0
+----------------------------------------------
+Errors:
+none
+==============================================

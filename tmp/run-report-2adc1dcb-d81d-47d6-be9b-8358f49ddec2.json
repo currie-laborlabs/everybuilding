@@ -1,0 +1,78 @@
+{
+  "runId": "2adc1dcb-d81d-47d6-be9b-8358f49ddec2",
+  "status": "completed",
+  "zipCode": "90604",
+  "maxPages": 999,
+  "maxResults": 0,
+  "elapsedSeconds": 15288.9,
+  "output": {
+    "spreadsheetId": "1vTX9tMBGV4dk8EWBUzhGUeNo171h9f6Jio0v5BHzBBI",
+    "tabName": "Diamond_Leads"
+  },
+  "files": {
+    "runState": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\run-state-2adc1dcb-d81d-47d6-be9b-8358f49ddec2.json",
+    "checkpoint": "C:\\Users\\Curri\\Desktop\\PMHOA\\everybuilding\\scraper\\tmp\\tier1-checkpoint.json",
+    "sqlite": "./tmp/tier1-runtime.db"
+  },
+  "metrics": {
+    "extractedRecords": 58,
+    "normalizedRecords": 58,
+    "attomEnrichedRecords": 58,
+    "contactCandidates": 574,
+    "verifiedContacts": 574,
+    "rowsWithEmail": 563,
+    "validEmails": 0,
+    "invalidEmails": 0,
+    "unknownEmails": 0,
+    "unverifiedEmails": 563,
+    "contactSourceCounts": {
+      "reonomy": 445,
+      "batchdata": 120,
+      "<blank>": 3,
+      "batchdata,reonomy": 6
+    },
+    "skippedExistingContacts": 16,
+    "appendedRows": 558,
+    "partialRecords": 0
+  },
+  "stageStatus": {
+    "login": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T15:17:49.148Z",
+      "elapsedMs": 90987
+    },
+    "search": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T15:18:08.725Z",
+      "elapsedMs": 19576
+    },
+    "extract": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T19:30:25.418Z",
+      "elapsedMs": 15136693
+    },
+    "attom_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T19:30:25.420Z",
+      "elapsedMs": 1
+    },
+    "contact_enrich": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T19:30:58.157Z",
+      "elapsedMs": 32736
+    },
+    "email_verify": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T19:30:58.294Z",
+      "elapsedMs": 136
+    },
+    "save": {
+      "status": "completed",
+      "updatedAt": "2026-06-05T19:31:01.260Z",
+      "elapsedMs": 2923
+    }
+  },
+  "errors": [],
+  "errorMessage": null,
+  "createdAt": "2026-06-05T19:31:02.166Z"
+}
